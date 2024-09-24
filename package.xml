@@ -6,9 +6,5 @@
         <members>QuoteExtControllerTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>Apttus_Approval__SObjectApprovals2</members>
-        <name>ApexComponent</name>
-    </types>
     <version>61.0</version>
 </Package>
