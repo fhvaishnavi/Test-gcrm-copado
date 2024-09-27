@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>Validation_for_Opp_Lines_on_Closed_Won</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( $Setup.BypassSetting__c.Bypass_Validation_Rule__c = False &amp;&amp; Count_of_Opp_Line_Items__c &lt;= 0 &amp;&amp; ISCHANGED(StageName) &amp;&amp; ISPICKVAL(StageName, &apos;Closed Won&apos;) , TRUE, FALSE)</errorConditionFormula>
+        <errorMessage>In order to update the stage to proposal or beyond, please ensure that Opportunity Products are created. If you need assistance, please contact your System Administrator.</errorMessage>
+    </validationRules>
+</CustomObject>
