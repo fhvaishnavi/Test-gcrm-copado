@@ -63,6 +63,25 @@ public without sharing class L2O_OpportunityTriggerHelperService{
             }
         }
     }
+
+    /** scdev-5398 Update Forecasted Bookings on opportunity when probalility or Bookings total  is changed  */
+    public void updateForecastedBookings(){
+        setExceptionVars('updateForecastedBookings');
+        List<Opportunity> lstOpptyRecs = Trigger.new;
+        Map<Id,Opportunity> mapOldOpps = (Map<Id,Opportunity>)Trigger.oldMap;
+       
+        for(Opportunity currentOpptyRec : lstOpptyRecs){
+            
+            // Check if the probability or booking total fields are changes 
+            if((currentOpptyRec.Probability != null &&  mapOldOpps.get(currentOpptyRec.id).Probability != currentOpptyRec.Probability) || (currentOpptyRec.L2O_Bookings_Total__c != null
+			   && mapOldOpps.get(currentOpptyRec.id).L2O_Bookings_Total__c != currentOpptyRec.L2O_Bookings_Total__c) || (currentOpptyRec.SBQQ__PrimaryQuote__c !=null && currentOpptyRec.SBQQ__PrimaryQuote__c != mapOldOpps.get(currentOpptyRec.id).SBQQ__PrimaryQuote__c )){ 
+                currentOpptyRec.Forecasted_Bookings__c = (currentOpptyRec.L2O_Bookings_Total__c * (currentOpptyRec.Probability/100)) ;
+                   }else if (currentOpptyRec.SBQQ__PrimaryQuote__c == null){
+                    currentOpptyRec.Forecasted_Bookings__c = 0;
+                   }
+        }
+    }
+    //SCDEV-5398 END 
     
     /**
 * @name  updateOpportunityStageOnInsert
@@ -85,15 +104,7 @@ public without sharing class L2O_OpportunityTriggerHelperService{
             //Fetch Opp List if user did not populate Business Region. #5844
             If(opp.L2O_Business_Region__c == null && opp.AccountId != null){
                 mapAccIdToOpp.put(opp.AccountId,opp);
-            }
-            //Update the stage to business if opportunity type is new.
-            //SCDEV-4878 Open up stage change to all Opportunity types
-            If(opp.type == L2O_Constants.OPPTY_TYPE_NEWBUSINESS && SDF_TGF_Trigger_Config__mdt.getInstance('L2O_TriggerContextDataMigration').Enabled__c){
-                opp.stageName = L2O_Constants.OPPTY_STAGE_PROSPECT;
-            }
-            If(opp.type != L2O_Constants.OPPTY_TYPE_NEWBUSINESS && SDF_TGF_Trigger_Config__mdt.getInstance('L2O_TriggerContextDataMigration').Enabled__c){
-                opp.stageName = L2O_Constants.OPPTY_STAGE_DISCOVERY;
-            }
+            }            
             //Update the Type to Existing Business if Opp is Amendment Opp. #5634
             If(opp.SBQQ__AmendedContract__c != null){
                 mapContractIdToOpp.put(opp.SBQQ__AmendedContract__c,opp);
@@ -104,7 +115,15 @@ public without sharing class L2O_OpportunityTriggerHelperService{
                 mapContractIdToOppRenewal.put(opp.SBQQ__RenewedContract__c,opp);
                 opp.type = L2O_Constants.RENEWAL_OPPTY_TYPE;
                 opp.L2O_Subtype__c = L2O_Constants.RENEWAL_OPPTY_SUB_TYPE_RENEWAL;
-            } 
+            }
+            //Update the stage to business if opportunity type is new.
+            //SCDEV-4878 Open up stage change to all Opportunity types
+            If(opp.type == L2O_Constants.OPPTY_TYPE_NEWBUSINESS && SDF_TGF_Trigger_Config__mdt.getInstance('L2O_TriggerContextDataMigration').Enabled__c){
+                opp.stageName = L2O_Constants.OPPTY_STAGE_PROSPECT;
+            }
+            If(opp.type != L2O_Constants.OPPTY_TYPE_NEWBUSINESS && SDF_TGF_Trigger_Config__mdt.getInstance('L2O_TriggerContextDataMigration').Enabled__c){
+                opp.stageName = L2O_Constants.OPPTY_STAGE_DISCOVERY;
+            }
             //Update the Type, Flag when Amend Opp created from Account without contract and filtering out only assets amendment
             If(opp.Name.CONTAINS(System.Label.L2O_AmendOppDefaultName) && opp.L2O_Subtype__c == null){ //&& opp.SBQQ__RenewedContract__c == null 
                 opp.type = L2O_Constants.OPPTY_TYPE_EXISTINGBUSINESS;

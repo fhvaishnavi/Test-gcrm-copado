@@ -11,21 +11,75 @@ public class L2O_OpportunityTriggerHelperService_Test {
     // String field variables
     public static String strAccepted = 'Accepted';
     public static Id pricebookId = Test.getStandardPricebookId();
-    @testSetup
+    
     /**
 * @name  testSetup()
 * @description Sets up Test Data for the Class
 * @params  none
 */ 
-     static void testSetup() {
-         List<Account> accountList= L2O_DataFactoryTest.createAccount(true,2);
-         List<Contact> conList =  L2O_DataFactoryTest.createContact(true,accountList); 
-         List<Opportunity> oppList =  L2O_DataFactoryTest.createOpportunity(true,accountList); 
-         L2O_DataFactoryTest.createContactRoles(true,oppList,conList[0].id);    
-         List<SBQQ__Quote__c> quoteList =  L2O_DataFactoryTest.createQuote(true,oppList);    
-         L2O_DataFactoryTest.createContract(oppList,QuoteList,accountList[0].id);  
+    @testSetup 
+    static void testSetup() {
+        List<Account> accountList= L2O_DataFactoryTest.createAccount(true,2);
+        accountList[0].L2O_Business_Region__c = 'USA';
+        accountList[1].L2O_Business_Region__c = 'Canada';
+        update accountList;
+
+        List<Contact> conList =  L2O_DataFactoryTest.createContact(true,accountList); 
+        List<Opportunity> oppList =  L2O_DataFactoryTest.createOpportunity(true,accountList);
+        oppList[0].L2O_Business_Region__c = 'USA';
+        oppList[1].L2O_Business_Region__c = 'Canada';
+        update oppList;
+
+        L2O_DataFactoryTest.createContactRoles(true,oppList,conList[0].id);    
+        List<SBQQ__Quote__c> quoteList =  L2O_DataFactoryTest.createQuote(true,oppList);    
+        L2O_DataFactoryTest.createContract(oppList,QuoteList,accountList[0].id);  
         L2O_DataFactoryTest.createTeladocAccount();
+
+        List<Product2> listProduct = L2O_DataFactoryTest.createProduct();
+        List<PricebookEntry> pricebookEntryList = [Select Id, Product2Id, Pricebook2Id from PricebookEntry];
+        Map<Id, Id> mapProdPbe = new Map<Id, Id>();
+        for(PricebookEntry objPBE : pricebookEntryList)
+        {
+            mapProdPbe.put(objPBE.Product2Id, objPBE.Id);
         }
+
+        List<SBQQ__QuoteLine__c> listQuoteLine = new List<SBQQ__QuoteLine__c>();
+        for(SBQQ__Quote__c objQuote : quoteList)
+        {
+            SBQQ__QuoteLine__c objQuoteLine=new SBQQ__QuoteLine__c();
+            objQuoteLine.SBQQ__Quote__c=objQuote.Id;
+            objQuoteLine.SBQQ__StartDate__c = system.today(); 
+            objQuoteLine.SBQQ__Product__c=listProduct[0].Id;
+            listQuoteLine.add(objQuoteLine);
+        }
+        insert listQuoteLine;
+
+        for(Opportunity objOpp : oppList)
+        {
+            List<OpportunityLineItem> oppLineitems = New List<OpportunityLineItem>();
+            for(SBQQ__QuoteLine__c quoteLine:listQuoteLine){
+                OpportunityLineItem oppItem = New OpportunityLineItem();
+                oppItem.SBQQ__QuoteLine__c =  quoteLine.Id;
+                oppItem.OpportunityId = objOpp.Id;
+                oppItem.L2O_Unit_Sell_Price__c = 20;
+                oppItem.Quantity = 2;
+                oppItem.TotalPrice = 40;
+                oppItem.Product2Id = quoteLine.SBQQ__Product__c;
+                oppItem.PricebookEntryId = mapProdPbe.get(quoteLine.SBQQ__Product__c);
+                oppLineitems.add(oppItem);            
+            }
+            insert oppLineitems;
+        }
+        List<OpportunityTeamMember> listOTM = new List<OpportunityTeamMember>();
+
+        for(Opportunity objOpp : oppList)
+        {
+            listOTM.add(new OpportunityTeamMember(OpportunityId = objOpp.Id,
+                                                                        UserId = UserInfo.getUserId(),
+                                                                        TeamMemberRole = 'Opportunity Owner'));
+        }
+        if(!listOTM.isEmpty()) insert listOTM;
+    }
     
     /**
 * @name testUpdateCancelRipOpptyToContracted()
@@ -34,6 +88,7 @@ public class L2O_OpportunityTriggerHelperService_Test {
 */ 
      @isTest static void testUpdateCancelRipOpptyToContracted() { 
         Test.startTest();
+
         //create a contract record
         Contract contractRec = [SELECT Id,contractnumber FROM Contract WHERE ContractTerm = 12 LIMIT 1]; 
         //create quote list
@@ -46,8 +101,6 @@ public class L2O_OpportunityTriggerHelperService_Test {
                 lstQuote.add(quoteRec);
             }
          update lstQuote;
-
-        List<OpportunityLineItem> listOLI = new List<OpportunityLineItem>();
 
        //create opportunity list
        List<Opportunity> lstOppty = [SELECT Id,Name,stageName,SBQQ__PrimaryQuote__c 
@@ -309,7 +362,8 @@ public class L2O_OpportunityTriggerHelperService_Test {
                                       FROM Opportunity 
                                       WHERE Id=:oppList[0].Id];
         
-        lstOppty[0].SBQQ__PrimaryQuote__c = lstQuote[0].Id; 
+        lstOppty[0].SBQQ__PrimaryQuote__c = lstQuote[0].Id;
+        lstOppty[0].L2O_Business_Region__c = 'Canada'; 
         lstOppty[0].stageName = L2O_Constants.OPPTY_STAGE_CLOSED_OWN;
         update lstOppty;
          System.assertEquals(updtAccList[0].L2O_Business_Region__c,'Canada','');
