@@ -2,11 +2,9 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>Dummy_Text_Field__c</fullName>
-        <description>Replace with date for Dummy GCRM User Stories in Copado below;
-&lt;--- April 8, 2024 ---&gt;</description>
         <externalId>false</externalId>
         <label>Dummy Text Field</label>
-        <length>130</length>
+        <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
