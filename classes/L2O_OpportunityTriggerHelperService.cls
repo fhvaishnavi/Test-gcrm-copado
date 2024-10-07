@@ -64,24 +64,29 @@ public without sharing class L2O_OpportunityTriggerHelperService{
         }
     }
 
-    /** scdev-5398 Update Forecasted Bookings on opportunity when probalility or Bookings total  is changed  */
-    public void updateForecastedBookings(){
-        setExceptionVars('updateForecastedBookings');
+/** 
+* @name  updateForecastBookings
+* @description SCDEV-5398 Update Forecast Bookings on opportunity when probalility or Bookings total is changed
+* @params  none
+**/
+    public void updateForecastBookings() {
+        setExceptionVars('updateForecastBookings');
         List<Opportunity> lstOpptyRecs = Trigger.new;
         Map<Id,Opportunity> mapOldOpps = (Map<Id,Opportunity>)Trigger.oldMap;
        
         for(Opportunity currentOpptyRec : lstOpptyRecs){
             
             // Check if the probability or booking total fields are changes 
-            if((currentOpptyRec.Probability != null &&  mapOldOpps.get(currentOpptyRec.id).Probability != currentOpptyRec.Probability) || (currentOpptyRec.L2O_Bookings_Total__c != null
-			   && mapOldOpps.get(currentOpptyRec.id).L2O_Bookings_Total__c != currentOpptyRec.L2O_Bookings_Total__c) || (currentOpptyRec.SBQQ__PrimaryQuote__c !=null && currentOpptyRec.SBQQ__PrimaryQuote__c != mapOldOpps.get(currentOpptyRec.id).SBQQ__PrimaryQuote__c )){ 
-                currentOpptyRec.Forecasted_Bookings__c = (currentOpptyRec.L2O_Bookings_Total__c * (currentOpptyRec.Probability/100)) ;
-                   }else if (currentOpptyRec.SBQQ__PrimaryQuote__c == null){
-                    currentOpptyRec.Forecasted_Bookings__c = 0;
-                   }
+            if((currentOpptyRec.Probability != null &&  mapOldOpps.get(currentOpptyRec.id).Probability != currentOpptyRec.Probability) || 
+               (currentOpptyRec.Bookings_Clone__c != null && mapOldOpps.get(currentOpptyRec.id).Bookings_Clone__c != currentOpptyRec.Bookings_Clone__c) || 
+               (currentOpptyRec.SBQQ__PrimaryQuote__c !=null && currentOpptyRec.SBQQ__PrimaryQuote__c != mapOldOpps.get(currentOpptyRec.id).SBQQ__PrimaryQuote__c )) { 
+                    currentOpptyRec.Forecasted_Bookings__c = (currentOpptyRec.Bookings_Clone__c * (currentOpptyRec.Probability/100)) ;
+            }
+            else if (currentOpptyRec.SBQQ__PrimaryQuote__c == null) {
+                currentOpptyRec.Forecasted_Bookings__c = 0;
+            }
         }
-    }
-    //SCDEV-5398 END 
+    } 
     
     /**
 * @name  updateOpportunityStageOnInsert
