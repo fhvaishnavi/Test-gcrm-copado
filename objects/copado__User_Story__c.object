@@ -5,9 +5,10 @@
         <description>Test description 01
 Test description 02</description>
         <externalId>false</externalId>
+        <inlineHelpText>Test Help text</inlineHelpText>
         <label>Test Field</label>
         <length>255</length>
-        <required>false</required>
+        <required>true</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
