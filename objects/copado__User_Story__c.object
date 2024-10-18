@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>Test_Field__c</fullName>
+        <description>Test description 01</description>
         <externalId>false</externalId>
         <label>Test Field</label>
         <length>255</length>
