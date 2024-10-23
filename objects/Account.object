@@ -11,22 +11,9 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Test_Field__c</fullName>
-        <description>Additional info</description>
-        <externalId>false</externalId>
-        <label>Test Field</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <validationRules>
         <fullName>Test_Validation_on_Account</fullName>
         <active>true</active>
-        <description>Additional info</description>
         <errorConditionFormula>ISBLANK( Name )</errorConditionFormula>
         <errorMessage>Test Validation</errorMessage>
     </validationRules>
