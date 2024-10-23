@@ -11,4 +11,10 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <validationRules>
+        <fullName>Test_Validation_on_Account</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( Name )</errorConditionFormula>
+        <errorMessage>Test Validation</errorMessage>
+    </validationRules>
 </CustomObject>
