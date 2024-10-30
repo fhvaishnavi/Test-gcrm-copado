@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+&nbsp;I know that member engagement is a priority for Blue Shield of California, and I'd like to share some fresh insights on the topic with you.&nbsp;We recently analyzed 24 US health&nbsp;health plans encompassing 20 million members over 10 years has identified five key trends to help health plans maximize the value of their virtual care offerings.</p>
+
+<p><br />
+<b>Our research shows health plans:</b></p>
+
+<ul>
+	<li>Take an innovation-focused approach to expanding access to care</li>
+	<li>Provide integrated, whole-person care that improves engagement</li>
+	<li>Utilize a&nbsp;unified approach to manage multiple conditions and deliver a better experience</li>
+	<li>Build a trusted partnership with a virtual care partner</li>
+</ul>
+
+<p><br />
+You can explore our findings by reading the&nbsp;<a href="https://www.teladochealth.com/organizations/resources/a-review-of-virtual-care-trends-across-dozens-of-health-plans">ebook</a>. As always, I welcome you to get in touch to see how we can work together to meet your strategic goals for virtual care.&nbsp;</p>
+
+<p><br />
+&nbsp;<br />
+Thank you,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

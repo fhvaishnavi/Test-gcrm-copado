@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ABM Pilot Program - Priority Health - Email #2 - WellSpan testimonial</name>
+    <style>none</style>
+    <subject>Integrated virtual care provides value to payers AND providers</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

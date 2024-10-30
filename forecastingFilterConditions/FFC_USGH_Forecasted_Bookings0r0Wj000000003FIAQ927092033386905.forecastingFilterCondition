@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilterCondition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <colName>00N8c00000g7boz</colName>
+    <fieldName>L2O_Client_Line_of_Business__c</fieldName>
+    <forecastingFilter>FF_USGH_Forecasted_Bookings0hlWj00000000G9IAI898243913218248</forecastingFilter>
+    <forecastingSourceDefinition>7syWj00000000Pp</forecastingSourceDefinition>
+    <isProtected>false</isProtected>
+    <masterLabel>FFC_USGH_Forecasted_Bookings0r0Wj000000003FIAQ927092033386905</masterLabel>
+    <operation>notEqual</operation>
+    <sortOrder>3</sortOrder>
+    <value>Commercial ASO - Opt Out</value>
+</ForecastingFilterCondition>

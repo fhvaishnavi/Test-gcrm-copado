@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>Account</joinTable>
+        </blockInfo>
+        <columns>
+            <field>Account.bizible2__Leads__r$FirstName</field>
+        </columns>
+        <columns>
+            <field>Account.bizible2__Leads__r$LastName</field>
+        </columns>
+        <columns>
+            <field>Account.bizible2__Leads__r$Title</field>
+        </columns>
+        <columns>
+            <field>Account.bizible2__Leads__r$Email</field>
+        </columns>
+        <format>Summary</format>
+        <name>Accounts &amp; Leads</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>bizible2__Accounts_Leads__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>Account.bizible2__Leads__r$bizible2__Touchpoint_Date_LC__c</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>a</joinTable>
+        </blockInfo>
+        <columns>
+            <field>FIRST_NAME</field>
+        </columns>
+        <columns>
+            <field>LAST_NAME</field>
+        </columns>
+        <columns>
+            <field>TITLE</field>
+        </columns>
+        <columns>
+            <field>EMAIL</field>
+        </columns>
+        <format>Summary</format>
+        <name>Contacts &amp; Accounts</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>ContactList</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>ACCOUNT.LAST_UPDATE</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>Account</joinTable>
+    </blockInfo>
+    <description>Displays a list of Leads and/or Contacts under a single Account</description>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Accounts with Leads &amp; Contacts</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>bizible2__Accounts_Leads__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

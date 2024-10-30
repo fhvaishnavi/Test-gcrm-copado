@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Poor mental health has been shown to be both a driver and a consequence of cardiometabolic conditions like diabetes, hypertension and obesity.<br />
+<br />
+<a href="https://www.teladochealth.com/organizations/resources/4-reasons-mental-health-support-is-crucial-to-cardiometabolic-health">In this recent article</a>, Dr. Tejaswi Kompala, Senior Director, Clinical Strategy, Chronic Condition Management at Teladoc Health explains the importance of recognizing the interconnectivity of mental and physical health. She shares how integrating mental health support into chronic care management is essential to improving outcomes for people along the care spectrum.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

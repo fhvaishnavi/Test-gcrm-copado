@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+With obesity and weight loss medications in the headlines daily, now is the time for organizations to take a closer look at the connections between mental health, weight and cardiometabolic health. An integrated approach to weight loss and mental wellness is crucial for long-term success due to the bidirectional relationship between obesity and mental health.<br />
+<br />
+<a href="https://www.teladochealth.com/organizations/resources/experts-weigh-in-mental-health-obesity-and-glp-1s">Listen to our panel</a>&nbsp;of clinical engagement experts discuss ways organizations can help the people they serve, including why an integrated approach is crucial to supporting those with mental health and chronic conditions.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

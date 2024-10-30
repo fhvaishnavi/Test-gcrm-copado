@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <forecastingSourceDefinition>FSD_Opportunity426709077434835</forecastingSourceDefinition>
+    <forecastingType>USGH_Product_Bookings</forecastingType>
+    <isProtected>false</isProtected>
+    <masterLabel>FTS_USGH_Product_Bookings7sy8c000000wlK8AAI337956428075098</masterLabel>
+    <parentSourceDefinition>FSD_OpportunityLineItem540057225882274</parentSourceDefinition>
+    <relationField>OpportunityLineItem.OpportunityId</relationField>
+    <sourceGroup>1</sourceGroup>
+</ForecastingTypeSource>

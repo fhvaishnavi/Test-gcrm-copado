@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+As virtual care becomes an indispensable part of employee benefits, it's crucial to ensure your program is delivering real value. That’s where we come in.<br />
+<br />
+I’d like to personally invite you to our upcoming webinar, <a href="https://gateway.on24.com/wcc/eh/3511880/lp/4713242/stay-ahead-of-the-curve-evaluating-virtual-care-for-long-term-value">Stay Ahead of the Curve: Evaluating Virtual Care for Long-Term Value</a>, happening on <strong>Tuesday, October 8, at 12 PM Eastern</strong>.<br />
+<br />
+You’ll hear from Jessy Rosales, Head of North America Total Rewards at SAP, and Dr. Tejaswi Kompala, Senior Director of Clinical Strategy for Cardiometabolic Health at Teladoc Health, with moderation from Nabomita Dutta, SVP of Commercial Strategy at Teladoc Health. They'll be sharing insights on what your virtual care program should be achieving to ensure long-term benefits and ROI.<br />
+<br />
+Don’t miss out on this opportunity to stay ahead in evaluating the effectiveness of your virtual care offerings.<br />
+<br />
+Looking forward to seeing you there!<br />
+{{{Sender.FirstName}}}</body>
+</html>

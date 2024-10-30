@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+When Reynolds Consumer Products, the leading provider of popular household essentials, recognized diabetes was a key driver of cost for medical and pharmacy spend in their employee benefits program, they turned to Teladoc Health to provide a comprehensive Diabetes Management program to their employees. Engaging with Teladoc Health aligned with Reynold’s commitment to exceptional quality.<br />
+<br />
+<a href="https://www.teladochealth.com/organizations/resources/simplifying-diabetes-management-with-a-whole-person-employee-benefits-program">Read Reynold’s story</a>&nbsp;to learn how their approach delivered exceptional results including a 3.5x ROI for diabetes management, a 17% reduction in net total medical costs, and a 1.4% average reduction in A1c across all cohorts.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

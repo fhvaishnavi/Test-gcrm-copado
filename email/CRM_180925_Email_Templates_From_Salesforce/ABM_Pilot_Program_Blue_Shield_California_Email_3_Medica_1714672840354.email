@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear&nbsp;{{{Recipient.FirstName}}},<br />
+&nbsp;</p>
+
+<p>In the competitive landscape of Medicare Advantage, strategic partnerships are key. With our track record of driving Star Ratings, enhancing clinical outcomes, and cutting costs, we understand the need to stay ahead.</p>
+
+<p>We've just released our latest white paper,&nbsp;<a href="https://view.highspot.com/viewer/6633d24a186d34fbab19973c"><b>Driving Value for Medicare Advantage Plans With Whole-Person Virtual Care</b></a> <b>.&nbsp;</b>As a valued client with Medicare Advantage business, you immediately came to mind. I believe the insights in this report show how investing in integrated, scalable virtual solutions can help you capitalize on the continued growth of telehealth adoption.</p>
+
+<p>I welcome the opportunity to discuss how we can further align our services with your strategic goals for virtual care.</p>
+
+<p><br />
+Thank you,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

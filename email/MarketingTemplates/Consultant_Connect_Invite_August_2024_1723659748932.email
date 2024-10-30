@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+I hope you’ll <a href="https://lp.teladochealth.com/consultant-connect-august-registration.html?utm_source=marketo&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202408-PTRBC-BASDGN-VIRTUAL-CARE-CONSULTANT-CONNECT&amp;utm_campaign_id=/">join us</a>&nbsp;on Thursday, August 29, at 12:00 PM Eastern for our next Consultant Connect. This interactive discussion, exclusively for benefit consultants, is a great way to learn how Teladoc Health is innovating our offerings to better meet your and your clients’ needs.<br />
+<br />
+Our Vice President of Commercial Strategy, Nicola Merryman, will walk through how Teladoc Health is deploying a new, broader value of investment approach with our Milliman-evaluated Cardiometabolic Health Value Model. Additionally, our Strategic Partnership team will share on our partnership announcement with Brightline and insights gathered from Forum—our annual event bringing together leaders from across the healthcare industry to advance virtual care.<br />
+<br />
+<a href="https://lp.teladochealth.com/consultant-connect-august-registration.html?utm_source=marketo&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202408-PTRBC-BASDGN-VIRTUAL-CARE-CONSULTANT-CONNECT&amp;utm_campaign_id=/">Register</a>&nbsp;to hear about:<br />
+•&nbsp;&nbsp; &nbsp;A new, validated model to quantify the holistic value of the Teladoc Health chronic care solution<br />
+•&nbsp;&nbsp; &nbsp;New mental health capabilities that will expand the Teladoc Health impact on members of all ages and stages<br />
+•&nbsp;&nbsp; &nbsp;Highlights from Forum 2024&nbsp;<br />
+<br />
+This session will provide the information you need to best support your clients—don’t miss it!<br />
+<br />
+{{{Sender.FirstName}}}</body>
+</html>

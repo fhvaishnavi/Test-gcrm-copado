@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear&nbsp;{{{Recipient.FirstName}}},<br />
+&nbsp;</p>
+
+<p>We partner with many organizations that have the combined role of payer and provider functions, or "payviders," and have come to understand there are unique challenges they face. Our partners tell us that through our innovative virtual care solutions, we are helping them improve:</p>
+
+<ul>
+	<li><b>Communication</b>&nbsp;by seamlessly sharing patient information between providers</li>
+	<li><b>Decision making&nbsp;</b>by consolidating and integrating patient health data</li>
+	<li><b>Patient engagement</b>&nbsp;by providing convenient access to services and support</li>
+	<li><b>Care continuity</b>&nbsp;by enabling all necessary "visits" regardless of patient location</li>
+	<li><b>Access to specialty care&nbsp;</b>(like behavioral health) for communities with limited resources</li>
+</ul>
+
+<p>Dale Brickley, Senior Director of Operations at WellSpan Philhaven, has shared his organization's experience with our solutions and how they "changed the landscape" of how his colleagues work <a href="https://view.highspot.com/viewer/6633d8949ae32f6a0e59becd">in this video</a>. He believes that virtual care will "continue to grow in importance," providing more opportunities for individuals to live healthier lives.&nbsp;</p>
+
+<p><br />
+Thank you,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

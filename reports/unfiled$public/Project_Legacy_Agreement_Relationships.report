@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Apttus__FF_Agreement_Number__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.APTS_Record_Type_Name__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Apttus__Amendment_Effective_Date__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Apttus__APTS_Agreement__c.Apttus__Parent_Agreement__c</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>Project Legacy- Agreement Relationships</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Apttus__APTS_Agreement__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

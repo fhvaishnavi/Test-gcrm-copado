@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_51611408</developerName>
+        <masterLabel>Katherine Nolan Team Segments</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>MEMBER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Gaddiel Gonzalez-Alicea</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Liz Tidwell</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Katherine Livingood</sourceValue>
+            </sourceValues>
+            <value>Katherine Nolan Directs</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Alexis Garcia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ashlee Slyman</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Chris Chesterfield</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Colin MacDonald</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Julie Dorsey</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Scott Douglas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Yvette Maldonado-Garcia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jacqueline Plesz</sourceValue>
+            </sourceValues>
+            <value>Jacqueline Plesz Directs</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Beau Cobb</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bridgette McGibbeny</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Carrie Seaver</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tiffany Delaney</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pamela Slatt</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Madelyn Otto</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kimberly Barnes</sourceValue>
+            </sourceValues>
+            <value>Kimberly Barnes Directs</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Stephanie Porter</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lisa Uiberall-Noble</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Miranda Freeman</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sean Craig</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tonia Heath</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tonya Diaz</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Traci Collins</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Zeina Elsahili</sourceValue>
+            </sourceValues>
+            <value>Stephanie Porter Directs</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarGrouped</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>BucketField_51611408</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>MEMBER_NAME</secondaryGroupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>MEMBER_ROLE</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Health__c</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Health_Notes__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.L2O_Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>MEMBER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alexis Garcia,Ashlee Slyman,Chris Chesterfield,Colin MacDonald,Julie Dorsey,Scott Douglas,Yvette Maldonado-Garcia,Gaddiel Gonzalez-Alicea,Jacqueline Plesz,Kimberly Barnes,Liz Tidwell,Stephanie Porter,Beau Cobb,Bridgette McGibbeny,Carrie Seaver,Tiffany Delaney,Pamela Slatt,Maddy Otto,Lisa Uiberall-Noble,Miranda Freeman,Sean Craig,Tonia Heath,Tonya Diaz,Traci Collins,Zeina Elsahili</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Prospect</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_51611408</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>MEMBER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.L2O_Account_Health_Risk_Rating__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Risk by Employer (KNolan)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountTeam</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

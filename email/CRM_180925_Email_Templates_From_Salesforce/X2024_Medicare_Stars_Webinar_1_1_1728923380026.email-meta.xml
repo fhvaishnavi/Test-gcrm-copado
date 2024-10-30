@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2024 Medicare Stars Webinar 1:1</name>
+    <style>none</style>
+    <subject>How virtual care can help maximize your Medicare ratings</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

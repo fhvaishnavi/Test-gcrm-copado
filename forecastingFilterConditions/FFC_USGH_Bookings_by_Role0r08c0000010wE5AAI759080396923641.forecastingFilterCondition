@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilterCondition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <colName>00N8c00000g7c08</colName>
+    <fieldName>L2O_Subtype__c</fieldName>
+    <forecastingFilter>FF_USGH_Bookings_by_Role0hl8c000000wkB0AAI522637369425714</forecastingFilter>
+    <forecastingSourceDefinition>7sy8c000000wlK2</forecastingSourceDefinition>
+    <isProtected>false</isProtected>
+    <masterLabel>FFC_USGH_Bookings_by_Role0r08c0000010wE5AAI759080396923641</masterLabel>
+    <operation>notEqual</operation>
+    <sortOrder>2</sortOrder>
+    <value>Pilot to Paid Conversion,Pilot Extension,Renewal,Attrition / Expiry</value>
+</ForecastingFilterCondition>

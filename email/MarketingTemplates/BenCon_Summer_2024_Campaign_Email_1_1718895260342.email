@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+When it comes to achieving overall well-being, cardiometabolic health is key. Improvements in cardiometabolic health have been shown to prevent cardiometabolic disease.<br />
+<br />
+Teladoc Health’s Senior Director, Clinical Strategy, Chronic Condition Management Dr. Tejaswi Kompala’s <a href="https://www.teladochealth.com/organizations/resources/the-four-pillars-of-better-cardiometabolic-health">article</a>&nbsp;explains the importance of shifting focus to improving cardiometabolic health for disease prevention. By shifting focus to cardiometabolic health, we can broaden the spectrum of care and address critical components that improve health outcomes and create lasting change.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

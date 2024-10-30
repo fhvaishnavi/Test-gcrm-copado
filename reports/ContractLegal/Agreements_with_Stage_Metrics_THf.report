@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_56078719</developerName>
+        <masterLabel>From Stage Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Apttus__APTS_Agreement__c.Stage_Metrics__r$L2O_From_Stage__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>In Authoring - Internal Review</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In Authoring - Author Contract</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In Authoring - Language Approval</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In Authoring - Language Approved</sourceValue>
+            </sourceValues>
+            <value>Internal</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>In Authoring - Other Party Review</sourceValue>
+            </sourceValues>
+            <value>External</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>In Authoring - Returned to Requestor</sourceValue>
+            </sourceValues>
+            <value>Returned to Requestor</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Apttus__APTS_Agreement__c$Name</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c$Apttus__Requestor__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c$APTS_ContractManager__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c$Apttus__Status__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c$APTS_Record_Type_Name__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Stage_Metrics__r$L2O_From_Stage__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Stage_Metrics__r$L2O_Current_Stage_Date__c</field>
+    </columns>
+    <columns>
+        <field>Apttus__APTS_Agreement__c.Stage_Metrics__r$L2O_To_Stage__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Apttus__APTS_Agreement__c.Stage_Metrics__r$Business_Days__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>All agreements with Stage Metrics grouped into Internal, External, and Returned to Requestor buckets.</description>
+    <filter>
+        <criteriaItems>
+            <column>Apttus__APTS_Agreement__c.Stage_Metrics__r$L2O_From_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In Authoring - Author Contract,In Authoring - Internal Review,In Authoring - Language Approval,In Authoring - Language Approved,In Authoring - Other Party Review,In Authoring - Returned to Requestor</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Apttus__APTS_Agreement__c$Id</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_56078719</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Agreements with Stage Metrics</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Agreements_with_Stage_Metrics__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Apttus__APTS_Agreement__c$Apttus__Activated_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

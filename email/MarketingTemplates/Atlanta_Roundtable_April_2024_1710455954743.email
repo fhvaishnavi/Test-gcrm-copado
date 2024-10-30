@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+I’d like to personally invite you to a networking breakfast hosted by Teladoc Health on innovations in virtual care. Join us in person to make meaningful connections with employee benefits colleagues and gain fresh perspectives on what’s new—and next—in whole person care.&nbsp;<br />
+<br />
+Date: Thursday, April 11&nbsp;<br />
+Time: 9:00 - 11:30am&nbsp;<br />
+Location: Switchyards Downtown - 151 Ted Turner Dr NW, Atlanta, GA 30303<br />
+Session Topic: Leading Edge of Virtual Care&nbsp;<br />
+<br />
+Healthcare is facing a swarm of trending imperatives—from equity to acuity, expensive drugs to cardiometabolic care, and AI (but make it human). Teladoc Health is here to break it down and share insights on the innovations, big and small, that move the needle with population health.<br />
+<br />
+<a href="https://lp.teladochealth.com/atlanta-roundtable-registration.html">Save your seat at the table</a>&nbsp;to enrich the conversation.&nbsp;<br />
+<br />
+Hope you can join us!&nbsp;<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Email}}}</body>
+</html>

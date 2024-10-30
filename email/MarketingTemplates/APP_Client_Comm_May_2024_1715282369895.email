@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%">As a valued Teladoc Health client, we are excited to share that we are deepening our investment in strategies to effectively expand access to clinically sound care that our members can count on when and where they need it.</span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%">Early this year, we began expanding our provider network to include additional licensed advanced practice providers (APPs), including nurse practitioners (NPs) and psychiatric-mental health nurse practitioners (PMHNPs), to serve members across our Primary360, Mental Health and 24/7 Care (General Medical) solutions in states where regulations allow full clinical and prescriptive authority. The addition of APPs is consistent with industry staffing trends; PMHNPs are among the most recruited providers in all of healthcare,<sup>1</sup> and more than 70% of licensed practicing NPs in the U.S. deliver primary care.<sup>2</sup>&nbsp;</span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%">At Teladoc Health, we understand the importance of timely access to high-quality and trusted care. Expanding our provider network not only increases program capacity and improves member access, but it also empowers member choice. Members will have the ability to select a provider that is best suited for their preferences, such as background, areas of specialized expertise, cultural commonalities, among others—</span></span></span>
+<ul>
+	<li style="margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-size:11pt"><span style="line-height:107%"><b>Primary360: </b>Members will be able to review the profiles of available NPs, MDs and DOs who match their preferences, and then select from those options a PCP for their ongoing care.</span></span></span></li>
+	<li style="margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-size:11pt"><span style="line-height:107%"><b>General Medical: </b>Members will be able to select the type of clinician they prefer to see, whether that’s an MD/DO or the next available provider (which may be an MD/DO or NP). </span></span></span></li>
+	<li style="margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-size:11pt"><span style="line-height:107%"><b>Mental Health: </b>Members will be able to specify if they want to see a psychiatrist or prefer the next available appointment (which may be with an MD/DO or NP).</span></span></span></li>
+</ul>
+<span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="font-size:12pt"><span style="line-height:116%">We’re confident that our ongoing recruitment of APPs will continue to enhance provider selection, drive member satisfaction and support access to care. With APPs added to our provider network, Teladoc Health can continue to reliably connect your members to high-quality care when they need it, wherever they are.</span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:116%">Thank you for your continued trust in Teladoc Health. If you have questions, please don’t hesitate to reach out.</span></span><br />
+<br />
+<span style="font-size:12.0pt"><span style="line-height:116%">Sincerely,</span></span><br />
+{{{Sender.FirstName}}}<br />
+<br />
+<span style="font-size:10pt"><sup><span style="font-size:8.0pt"><span style="color:#333333">1</span></span></sup><span style="font-size:8.0pt"><span style="color:#333333">Merritt Hawkins, 2021</span></span><br />
+<sup><span style="font-size:8.0pt">2</span></sup><span style="font-size:8.0pt">American Association of Nurse Practitioners<sup>®</sup> National NP Database (2021) and the 2020 AANP National NP Sample Survey</span></span></span></body>
+</html>

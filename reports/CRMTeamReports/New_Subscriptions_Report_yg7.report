@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Subscription__c.SBQQ__EndDate__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Subscription__c.SBQQ__SubscriptionStartDate__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Subscription__c.SBQQ__SubscriptionEndDate__c</field>
+    </columns>
+    <columns>
+        <field>CDF1</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Subscription__c.SBQQ__QuoteLine__c</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF(SBQQ__Subscription__c.SBQQ__SubscriptionEndDate__c&lt; SBQQ__Subscription__c.SBQQ__SubscriptionStartDate__c,&quot;true&quot;,&quot;false&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>End date validator</description>
+        <developerName>CDF1</developerName>
+        <label>End date validator</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>CDF1</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>True</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Subs created this week End date issue</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$SBQQ__Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

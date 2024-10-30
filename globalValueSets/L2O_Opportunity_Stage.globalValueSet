@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+        <label>Prospect</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+        <label>Discovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Proposal</fullName>
+        <default>false</default>
+        <label>Proposal</label>
+    </customValue>
+    <customValue>
+        <fullName>Review/Negotiation</fullName>
+        <default>false</default>
+        <label>Review/Negotiation</label>
+    </customValue>
+    <customValue>
+        <fullName>Contracting</fullName>
+        <default>false</default>
+        <label>Contracting</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+        <label>Closed Won</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+        <label>Closed Lost</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Author Contract</fullName>
+        <default>false</default>
+        <label>In Authoring - Author Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Language Approval</fullName>
+        <default>false</default>
+        <label>In Authoring - Language Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Language Approved</fullName>
+        <default>false</default>
+        <label>In Authoring - Language Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Other Party Signatures</fullName>
+        <default>false</default>
+        <label>In Authoring - Other Party Signatures</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Internal Review</fullName>
+        <default>false</default>
+        <label>In Authoring - Internal Review</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Other Party Review</fullName>
+        <default>false</default>
+        <label>In Authoring - Other Party Review</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Returned to Requestor</fullName>
+        <default>false</default>
+        <label>In Authoring - Returned to Requestor</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - New</fullName>
+        <default>false</default>
+        <label>In Authoring - New</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Request</fullName>
+        <default>false</default>
+        <label>In Authoring - Request</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Request Approval</fullName>
+        <default>false</default>
+        <label>In Authoring - Request Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Submitted Request</fullName>
+        <default>false</default>
+        <label>In Authoring - Submitted Request</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Contract Ops Review</fullName>
+        <default>false</default>
+        <label>In Authoring - Contract Ops Review</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Approved Request</fullName>
+        <default>false</default>
+        <label>In Authoring - Approved Request</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Cancelled Request</fullName>
+        <default>false</default>
+        <label>In Authoring - Cancelled Request</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - In Amendment</fullName>
+        <default>false</default>
+        <label>In Authoring - In Amendment</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Activated</fullName>
+        <default>false</default>
+        <label>In Authoring - Activated</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - In Effect</fullName>
+        <default>false</default>
+        <label>In Authoring - In Effect</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Being Activated</fullName>
+        <default>false</default>
+        <label>In Authoring - Being Activated</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Being Amended</fullName>
+        <default>false</default>
+        <label>In Authoring - Being Amended</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Being Renewed</fullName>
+        <default>false</default>
+        <label>In Authoring - Being Renewed</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - In Renewal</fullName>
+        <default>false</default>
+        <label>In Authoring - In Renewal</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Superseded</fullName>
+        <default>false</default>
+        <label>In Authoring - Superseded</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Being Terminated</fullName>
+        <default>false</default>
+        <label>In Authoring - Being Terminated</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Terminated</fullName>
+        <default>false</default>
+        <label>In Authoring - Terminated</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Expired</fullName>
+        <default>false</default>
+        <label>In Authoring - Expired</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - In Reconciliation</fullName>
+        <default>false</default>
+        <label>In Authoring - In Reconciliation</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Reconciled</fullName>
+        <default>false</default>
+        <label>In Authoring - Reconciled</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Signature Declined</fullName>
+        <default>false</default>
+        <label>In Authoring - Signature Declined</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Ready for Signatures</fullName>
+        <default>false</default>
+        <label>In Authoring - Ready for Signatures</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Fully Signed</fullName>
+        <default>false</default>
+        <label>In Authoring - Fully Signed</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Review</fullName>
+        <default>false</default>
+        <label>In Authoring - Review</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - In Clause Approval</fullName>
+        <default>false</default>
+        <label>In Authoring - In Clause Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - Start</fullName>
+        <default>false</default>
+        <label>In Authoring - Start</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - End</fullName>
+        <default>false</default>
+        <label>In Authoring - End</label>
+    </customValue>
+    <customValue>
+        <fullName>In Authoring - None</fullName>
+        <default>false</default>
+        <label>In Authoring - None</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminated</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminated</label>
+    </customValue>
+    <customValue>
+        <fullName>Being Terminated</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Being Terminated</label>
+    </customValue>
+    <customValue>
+        <fullName>Superseded</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Superseded</label>
+    </customValue>
+    <customValue>
+        <fullName>In Renewal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>In Renewal</label>
+    </customValue>
+    <customValue>
+        <fullName>Being Renewed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Being Renewed</label>
+    </customValue>
+    <customValue>
+        <fullName>Being Amended</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Being Amended</label>
+    </customValue>
+    <customValue>
+        <fullName>Being Activated</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Being Activated</label>
+    </customValue>
+    <customValue>
+        <fullName>In Effect</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>In Effect</label>
+    </customValue>
+    <customValue>
+        <fullName>Activated</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Activated</label>
+    </customValue>
+    <customValue>
+        <fullName>In Amendment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>In Amendment</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cancelled Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Approved Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Approved Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract Ops Review</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contract Ops Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Submitted Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Submitted Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Request Approval</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Request Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Request</label>
+    </customValue>
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Author Contract</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Author Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Party Review</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other Party Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Review</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Internal Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Party Signatures</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other Party Signatures</label>
+    </customValue>
+    <customValue>
+        <fullName>Language Approved</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Language Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Language Approval</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Language Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>Blank</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Blank</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Returned to Requestor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Returned to Requestor</label>
+    </customValue>
+    <customValue>
+        <fullName>In Clause Approval</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>In Clause Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>Review</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Fully Signed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fully Signed</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready for Signatures</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ready for Signatures</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Declined</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Signature Declined</label>
+    </customValue>
+    <customValue>
+        <fullName>Reconciled</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reconciled</label>
+    </customValue>
+    <customValue>
+        <fullName>In Reconciliation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>In Reconciliation</label>
+    </customValue>
+    <customValue>
+        <fullName>Expired</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Expired</label>
+    </customValue>
+    <masterLabel>Opportunity Stage</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Integrated care is providing a cohesive and modern healthcare experience that consumers love, and both individuals and organizations alike can reap the benefits.<br />
+<br />
+Join our upcoming webinar, <a href="https://www.teladochealth.com/organizations/resources/from-silos-to-synergy-transforming-the-integrated-care-experience?&amp;utm_source=highspot&amp;utm_medium=email&amp;utm_content=salesforce&amp;utm_term=&amp;utm_campaign=HWBR-202410-xUSGH-HCT-SILOS-TO-SYNERG">From Silos to Synergy: Transforming the Integrated Care Experience</a>,&nbsp;at 2 PM EST on October 14.<br />
+<br />
+Our very own Chief Medical Officer, Dr. Vidya Raman-Tangella, will moderate a discussion between Dr. Rutu Ezhuthachan, Chief Medical Officer, Meridian; Dr. Donna Milavetz, Chief Medical Officer, Regence Health Plan; and Dr. Shealynn Buck, Chief Medical Officer, Lockton. We’ll learn how integrated care is improving the healthcare experience for consumers and delivering real results for organization, as well as what plan sponsors can do to optimize care for individuals.<br />
+<br />
+I hope to see you at the webinar. Please don't hesitate to reach out to learn how we can support your integrated care approach.<br />
+<br />
+Thank you,<br />
+{{{Sender.FirstName}}}<br />
+&nbsp;</body>
+</html>

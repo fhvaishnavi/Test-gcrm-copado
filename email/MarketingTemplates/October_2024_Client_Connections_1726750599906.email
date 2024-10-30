@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+&nbsp;<br />
+We are truly thrilled to have the <a href="https://lp.teladochealth.com/client-connections-october-registration.html?&amp;utm_source=highspot&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202410-EMP-BASREP-CLIENT-CONNECT-OCTOBER&amp;utm_campaign_id=/">Client Connections</a>&nbsp;series as a time to collaborate with you and ensure we're delivering the best experience. As you prepare for a successful open enrollment and strong start to your 2025, I invite you to listen in as Chief Client Officer Kristen Moody brings together an expert panel of Teladoc Health leaders to discuss our company-wide efforts around it.<br />
+&nbsp;<br />
+Topics will include:<br />
+·&nbsp;&nbsp; &nbsp;Q4 preparations for your 2025 launch<br />
+·&nbsp;&nbsp; &nbsp;An updated review of the Engagement Center (with top tips and new tools for a successful open enrollment)&nbsp;<br />
+·&nbsp;&nbsp; &nbsp;A grounding on why mental health support matters during a stressful time of the year<br />
+·&nbsp;&nbsp; &nbsp;And much more&nbsp;<br />
+&nbsp;<br />
+<a href="https://lp.teladochealth.com/client-connections-october-registration.html?&amp;utm_source=highspot&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202410-EMP-BASREP-CLIENT-CONNECT-OCTOBER&amp;utm_campaign_id=/">Register to attend or receive a recording</a><br />
+&nbsp;<br />
+We hope to see you online Wednesday, October 9 at 12 p.m. Eastern and please forward this invite to anyone else in your organization who might find it interesting! As always, thank you for being a great partner as we continue to learn and improve our solutions in the name of better health.<br />
+&nbsp;<br />
+Sincerely,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+&nbsp;</body>
+</html>

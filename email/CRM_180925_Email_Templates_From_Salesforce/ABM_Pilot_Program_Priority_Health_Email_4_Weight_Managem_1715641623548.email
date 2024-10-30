@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear&nbsp;{{{Recipient.FirstName}}},<br />
+&nbsp;</p>
+
+<p><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif">In the past year, health plans faced significant pharmacy costs attributed largely to the demand for GLP-1 therapies. These costs can quickly upend the most carefully planned budgets, which is especially frustrating because we know these medications are not a silver bullet for weight management. So, how do you ensure GLP-1 medications are prescribed and managed in the most cost-effective way while helping your members achieve their personal health goals? </span></span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif">The Teladoc Health weight and obesity care solution focuses on three main principles:</span></span></span></span></span></span></p>
+
+<ol>
+	<li style="margin-left:8px"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We encourage <b>lifestyle modifications first</b> to instill good cardiometabolic habits all around.</span></span></span></span></li>
+	<li style="margin-left:8px"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We follow <b>evidence-backed practices for prescriptions</b> to facilitate safe, effective (and cost-effective) decisions. </span></span></span></span></li>
+	<li style="margin-bottom:11px; margin-left:8px"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">We provide <b>ongoing support</b> to ensure members get the most out of GLP-1 medications with long-term success as the goal.</span></span></span></span></li>
+</ol>
+
+<p aria-hidden="true"><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif">Teladoc Health is committed to balancing improved health outcomes with cost containment. Take a look at our product details and learn more about our approach to </span></span></span><a href="https://www.teladochealth.com/organizations/solutions/obesity-and-weight-care-management" style="color:#0563c1; text-decoration:underline"><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif">weight and obesity care</span></span></span></a><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif"> to see exactly how we make it work.</span></span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif">As always, I'm happy to continue the conversation about how we can tailor our programs to work for Priority Health.</span></span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt"><span style="line-height:115%"><span style="font-family:&quot;Calibri&quot;,sans-serif">Regards,</span></span></span></span></span></span></p>
+
+<p aria-hidden="true">&nbsp;</p>
+
+<p>Thank you,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

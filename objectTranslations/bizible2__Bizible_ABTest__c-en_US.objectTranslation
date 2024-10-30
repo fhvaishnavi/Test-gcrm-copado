@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BizibleId --></label>
+        <name>bizible2__BizibleId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>bizible2__Case__c</name>
+        <relationshipLabel><!-- Bizible ABTests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>bizible2__Contact__c</name>
+        <relationshipLabel><!-- Bizible ABTests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Reported --></label>
+        <name>bizible2__DateReported__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExperimentId --></label>
+        <name>bizible2__ExperimentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Experiment --></label>
+        <name>bizible2__Experiment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>bizible2__Lead__c</name>
+        <relationshipLabel><!-- Bizible ABTests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>bizible2__Opportunity__c</name>
+        <relationshipLabel><!-- Bizible ABTests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UserId --></label>
+        <name>bizible2__UserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- VariationId --></label>
+        <name>bizible2__VariationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variation --></label>
+        <name>bizible2__Variation__c</name>
+    </fields>
+</CustomObjectTranslation>

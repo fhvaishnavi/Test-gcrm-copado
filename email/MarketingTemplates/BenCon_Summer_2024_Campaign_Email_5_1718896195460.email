@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+The American College of Cardiology <a href="https://www.acc.org/About-ACC/Press-Releases/2023/03/05/15/07/Keto-Like-Diet-May-Be-Linked-to-Higher-Risk">published a study</a>&nbsp;raising concerns about the long-term effects of keto-like diets. This is one of the first studies to examine the association between this popularized dietary pattern and cardiovascular outcomes.<br />
+<br />
+Survey findings show individuals on keto-like diets may develop elevated cardiovascular risk, underscoring the importance of accounting for individual differences when considering interventions. This study reinforces Teladoc Health’s stance that there is no one-size-fits-all approach to better health. Our approach is multifaceted, integrating activity, nutrition, coaching, education, and more. A holistic approach such as ours enables us to deliver meaningful and lasting results across a broad population.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

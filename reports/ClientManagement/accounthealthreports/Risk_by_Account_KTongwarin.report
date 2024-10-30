@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_78524845</developerName>
+        <masterLabel>Karen Tongwarin Directors</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>MEMBER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Alex Cherry</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Andy Blanchard</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kim Brinzoi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Nick Stein</sourceValue>
+            </sourceValues>
+            <value>Fluchel</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Betsy Holman</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cali Lakin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Corinna Schuppenies</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Eleni Kokinis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Matt Wozny</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Mike Steinmetz</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Katie Scott</sourceValue>
+            </sourceValues>
+            <value>Baker-Grogg</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Alicia Mahan</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bethanne Cushin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Grace Ramos</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jason Fluchel</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kylie Groover</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Paige Przybylski</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Holly Suter</sourceValue>
+            </sourceValues>
+            <value>Barich</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Corey Fisher</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jennifer Baker-Grogg</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jenna Barich</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Katie Kulaga</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Maggie Tihanyi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Patrick Heinrich</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sarah Testa</sourceValue>
+            </sourceValues>
+            <value>Tongwarin Directs</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Allison Looft</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Christina Fendley</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Erin Wong</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kollin Jensen</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Monica Nybo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sarony Young</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jessica Seaward</sourceValue>
+            </sourceValues>
+            <value>Heinrich</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarStacked</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>BucketField_78524845</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>Account.L2O_Account_Health_Risk_Rating__c</secondaryGroupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>MEMBER_ROLE</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Health__c</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Health_Notes__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.L2O_Account_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>MEMBER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alex Cherry,Andy Blanchard,Kim Brinzoi,Nick Stein,Jordyn Spruit,Betsy Holman,Cali Lakin,Corinna Schuppenies,Eleni Kokinis,Matt Wozny,Mike Steinmetz,Katie Scott,Alicia Mahan,Bethanne Cushin,Grace Ramos,Jason Fluchel,Kylie Groover,Paige Przybylski,Holly Wolfe,Corey Fisher,Jen Baker-Grogg,Jenna Barich,Katie Kulaga,Maggie Tihanyi,Patrick Heinrich,Sarah Testa,Allison Looft,Christina Fendley,Erin Wong,Kollin Jensen,Monica Nybo,Sarony Young,Jessica Seaward,Karen Tongwarin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Prospect</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.L2O_Account_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Employer,Health Plan,Hospital &amp; Health System</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_78524845</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>MEMBER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.L2O_Account_Health_Risk_Rating__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Risk by Account (KTongwarin)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountTeam</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Bypass_Lead_Validation_Rules</name>
+    </customPermissions>
+    <description>This permission set used to bypass some validation rule from lead and created Openprise integration user,</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bypass Lead Validation Rules Permission Set</label>
+</PermissionSet>

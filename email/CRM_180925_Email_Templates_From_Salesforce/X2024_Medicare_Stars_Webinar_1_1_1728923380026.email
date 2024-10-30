@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p><span style="font-size:11.0pt">Dear&nbsp;</span>{{{Recipient.FirstName}}},<br />
+<br />
+<br />
+<span style="font-size:11.0pt">If you’re looking for ways to improve your Star Ratings, virtual care can help. I hope you’ll join us for our </span><a href="https://www.teladochealth.com/organizations/resources/from-stars-to-superstars-how-virtual-care-can-maximize-your-medicare-ratings?&amp;utm_source=other&amp;utm_medium=email&amp;utm_content=medicare-advantage-stars-webinar&amp;utm_term=hp&amp;utm_campaign=HWBR-202411-HP-GOVT&amp;utm_campaign_id=lgn/ "><span style="font-size:11.0pt">webinar on Thursday, November 14, at 2 PM Eastern</span></a> <span style="font-size:11.0pt"> as our expert panel discusses the transformative power virtual care can have on Medicare and its impact on Star Ratings. We’ll present compelling real-world results from our partners, demonstrating how virtual primary care and chronic care management solutions have supported their ratings.</span><br />
+<br />
+<a href="https://www.teladochealth.com/organizations/resources/from-stars-to-superstars-how-virtual-care-can-maximize-your-medicare-ratings?&amp;utm_source=other&amp;utm_medium=email&amp;utm_content=medicare-advantage-stars-webinar&amp;utm_term=hp&amp;utm_campaign=HWBR-202411-HP-GOVT&amp;utm_campaign_id=lgn/ "><span style="font-size:11.0pt">Register now</span></a> <span style="font-size:11.0pt"> to:<br />
+•&nbsp;&nbsp; &nbsp;Learn how virtual care offerings can help elevate Medicare Star Ratings and drive lasting behavioral change through increased member engagement<br />
+•&nbsp;&nbsp; &nbsp;Understand the impact of the latest CMS updates for virtual care, including the focus on digital literacy, the health equity index, changes in weighting/higher cut points and a new measure for chronic care (KED)<br />
+•&nbsp;&nbsp; &nbsp;Gain insight into innovative Stars improvement collaboration models and see how we’re supporting health plans in achieving their goals of reaching/maintaining 4+ Stars</span><br />
+&nbsp;</p>
+
+<p><span style="font-size:11.0pt">And as always, I welcome you to get in touch to see how we can meet your strategic goals for virtual care. &nbsp;</span><br />
+<br />
+<span style="font-size:11.0pt">Thank you,</span><br />
+&nbsp;<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

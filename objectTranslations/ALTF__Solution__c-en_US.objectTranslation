@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>ALTF__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- AltifyId --></label>
+        <name>ALTF__AltifyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Family --></label>
+        <name>ALTF__Solution_Family__c</name>
+        <picklistValues>
+            <masterLabel>Chronic Care</masterLabel>
+            <translation><!-- Chronic Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Health</masterLabel>
+            <translation><!-- Mental Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P360</masterLabel>
+            <translation><!-- P360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual Care</masterLabel>
+            <translation><!-- Virtual Care --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Long Name --></label>
+        <name>ALTF__Solution_Long_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- SortOrder --></help>
+        <label><!-- Market View SortOrder (Deprecated) --></label>
+        <name>ALTF__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>ALTF__Tooltip__c</name>
+    </fields>
+</CustomObjectTranslation>

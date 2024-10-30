@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+Join us—and hundreds of others focused on advancing virtual care—at Forum 2024. This annual event hosted by Teladoc Health gathers leaders from across the healthcare industry to share perspectives, insights, best practices, and strategies.<br />
+<br />
+This year, Forum will be <strong>July 15-16 in Chicago, IL</strong> and we’d really love to see you there. Our team is hard at work finalizing the details but to get a taste of the event experience you’re opting into, check out the <a href="https://forum.teladochealth.com/forum-2023-session-summaries">great content from last year.</a><br />
+<br />
+You can pre-register for Forum 2024 here: <a href="https://forum.teladochealth.com/">https://forum.teladochealth.com/</a>. Keep this website bookmarked as it will be the destination for all 2024 event information.<br />
+<br />
+Thanks,<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Email}}}</body>
+</html>

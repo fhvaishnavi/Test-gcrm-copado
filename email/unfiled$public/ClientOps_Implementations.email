@@ -1,0 +1,10 @@
+This is an automated email to notify you that opportunity "{!Opportunity.Name}" has moved to Closed Won.
+
+Opportunity Info:
+Closed Date: {!Opportunity.CloseDate}
+Account Name: {!Account.Name}
+TCV: {!Opportunity.L2O_TCV__c}
+Contract Path: {!Opportunity.L2O_Contract_Path__c}
+Opportunity Type: {!Opportunity.Type}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Opportunity Link: {!Opportunity.Link}

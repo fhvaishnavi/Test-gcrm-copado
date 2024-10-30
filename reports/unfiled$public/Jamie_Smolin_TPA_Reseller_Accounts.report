@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Type__c</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Sub_type__c</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Account_Status__c</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_STATE_CODE</field>
+    </columns>
+    <columns>
+        <field>Account.Account_ID_18__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>For ACES / comp team to manage deals for Jamie being assigned TPA reseller accounts.</description>
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>&quot;ACS Benefit Services, LLC&quot;,Administrative Concepts Inc,Advantek Benefit Administrators - Direct TPA,&quot;Akron Summit Community Action, Inc. dba GOHIO&quot;,Aliat - PEO,Allegeant LLC,Alliance for Affordable Services (Alliance),American Air Assistance,AMWINS,Aon Benefit Solutions RTO,Arthur J. Gallagher NAC,Avalon HR,Axis Group Benefits,&quot;Benefit Management, Inc. Joplin Mo&quot;,&quot;Benefit Management, LLC&quot;,&quot;Benefytt Technologies, Inc.&quot;,Benezon LLC,BSI Companies,&quot;Business Administrators &amp; Consultants, Inc.(BAC) - Direct TPA&quot;,Caprock Health Plans - 90 Degree Benefits,Captivated Health (formerly Borislow Insurance) - Parent,CareFactor,CGS Health,CHS Marketing,Clearwater Benefits Administrators LLC,Coastal Administrative Services - Direct,Cochise Combined Trust,Coeur  Plan Services,Core Management Resources Group Inc. - Termed Contract 2023,Cornerstone Preferred Resources,&quot;Corporate Benefits Service, Inc. - 90 Degree&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Covenant Administrators - 90 Degree Benefits,Coverdell,&quot;DirectNet, LLC&quot;,&quot;EBSO, Inc. -90 Degree Benefits&quot;,Employee Benefit Services - TPA,&quot;Employer Driven Insurance Services, Inc.&quot;,Enterprise Group Planning Inc.,Florida Health Administrators,G&amp;A Partners,Give Virtual Care,Group Resources,Harry?s Hospitality Group,HealthCare Solutions Group - 90 Degree Benefits,&quot;Healthfirst TPA, Inc. - Reseller&quot;,Healthgram,Heritage Consultants,IHC - Telemedicine,IHC Health Solutions (IHC-Loomis),&quot;IMA, Inc, a 90 Degree Benefits Company&quot;,INDECS Corporation,&quot;Insurance Administrators of America, Inc.&quot;,Insurance Program Managers Group (IPMG),J.P. Farley Corporation,Jordano&apos;s Inc.,Kentucky Health Administrators,LL Roberts Group,Lockard and Williams Insurance Services AHH,Lone Star PEO,Maestro Healthcare Reseller,MBA Benefit Administrators,MedBen,MedCost Reseller,&quot;Mid-American Benefits, Inc.&quot;,Millennium Health Care Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Inc&quot;,Mutual Health Services,&quot;MyHealthPass, LLC&quot;,&quot;Nextep, Inc.&quot;,Orchestrate HR,Patient Advocates - Direct Account,PayerFusion Holdings,Performance Health,PHP of the Carolinas,Point Comfort Underwriters,&quot;Prairie States Enterprises, Inc.&quot;,&quot;Preferred Benefit Administrators, Inc.&quot;,Q3 Business Technology Corporation,&quot;Questco, Inc.&quot;,Sedera,Self Insured Plans - 90 Degree Benefits,Self Insured Services Co (SISCO),SimplePay Health,&quot;Simplified Benefits Administrators, LLC&quot;,Stirling Benefits - 90 Degree Benefits,SWBC PEO,Sympl Benefits,Teachers Coalition on Health,&quot;Total Plan Services, Inc. - 90 Degree&quot;,&quot;TPA Partner, LLC&quot;,Travel Guard USA,&quot;Trek Health, LLC&quot;,Trustmark Star Marketing and Administrators,Unified Group Services,&quot;Vantage American Solutions, Inc.&quot;,Veritas Impact Partners,Vitori Health,&quot;Web TPA, Inc&quot;,WellNet Healthcare</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>&quot;Millennium Health Care Group, Inc&quot;,Harry’s Hospitality Group,Coeur  Plan Services</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Jamie Smolin - TPA Reseller Accounts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

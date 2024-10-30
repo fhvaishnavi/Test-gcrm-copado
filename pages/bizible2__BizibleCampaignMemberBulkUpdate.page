@@ -1,0 +1,233 @@
+<apex:page standardController="Campaign" tabstyle="Campaign"  extensions="bizible2.BizibleCampaignMemberBulkUpdate">
+    <apex:form >
+        <style>
+.rich-tab-active {
+background-image: url(/faces/a4j/g/3_3_3.Finalorg.richfaces.renderkit.images.TabGradientA/DATB/eAFbe3btx48fmQAVbAT9);
+background-color: #FFFFFF;
+display: none;
+}
+.rich-tabhdr-side-border {
+background-image: url(/faces/a4j/g/3_3_3.Finalorg.richfaces.renderkit.images.TabStripeImage/DATB/eAE7cOAAAASDAkE_);
+display: none;
+}
+</style>
+ <script type="text/javascript">
+ var totalrecord;
+ function myfun()
+{
+    sortName();
+    return false;
+   
+}
+function redirectToCampaign(){
+    callCampaign();
+}
+function UncheckAll() {
+    var w = document.getElementsByTagName('input');
+    
+    for (var i = 0; i < w.length; i++) {
+        if (w[i].type == 'checkbox') {
+            w[i].checked = false;
+        }
+    }
+    //applyfilter();
+}
+
+window.onload()=function UncheckAll1() {
+    var w = document.getElementsByTagName('input');
+    
+    for (var i = 0; i < w.length; i++) {
+        if (w[i].type == 'checkbox') {
+            w[i].checked = false;
+        }
+    }
+    
+    //applyfilter();
+}
+
+var counter = 0;
+
+
+
+
+
+function applyfilter() {
+    var inputCheckBox22 = document.getElementById('j_id0:j_id1:pageblck:pageblck:SelectAll');
+    if (inputCheckBox22 !=null) {                  
+        inputCheckBox22.checked=false;
+    }
+}
+function checkdate(){
+    var vdate=document.getElementById('j_id0:j_id1:d1');
+     
+    if(vdate.value==''){
+        alert('Please enter date');
+        return false;
+    }
+    else{
+        //alert('calling function');
+         updateRecordsaction();
+    }
+}
+
+function calculatechekc(receivedInputID) {
+    counter = parseFloat(document.getElementById('j_id0:j_id1:showvalue').innerHTML);    
+    //alert('this is counter'+document.getElementById('j_id0:j_id1:showvalue').innerHTML);
+    var inputCheckBox2 = document.getElementById(receivedInputID).checked;
+    if (inputCheckBox2 == true) {
+        counter = counter + 1;
+    } else if (inputCheckBox2 == false) {
+        counter = counter - 1;
+    }
+    document.getElementById('j_id0:j_id1:showvalue').innerHTML = counter;
+}
+
+function selectAllCheckboxes(obj, receivedInputID) {       
+    var inputCheckBox = document.getElementsByTagName("input");   
+    
+    for (var i = 0; i < inputCheckBox.length; i++) {
+        if (inputCheckBox[i].id.indexOf(receivedInputID) != -1) {
+            inputCheckBox[i].checked = obj.checked;           
+        }
+    }
+    SelectcurrentRecords();        
+}
+     
+ function getCheckedLength() {
+
+    var inputCheckBox1 = document.getElementById('j_id0:j_id1:pageblck:pageblck:SelectAll').checked;
+    if (inputCheckBox1 == false) {
+        counter -= 200;
+    }
+    document.getElementById('j_id0:j_id1:showvalue').innerHTML = counter;
+}
+   
+    function SelectGridCheckBoxes(obj){  
+        var selectall= document.getElementById('j_id0:j_id1:pageblck:pageblck:SelectAll'); 
+        selectall.checked=obj.checked;
+        SelectallRecords();        
+    }
+    </script>
+        <br/>
+        <h1>Campaign</h1><br/>
+        <h2 style="font-size:21px">Bulk Update Bizible Touchpoint Date</h2>
+        <div style="height: auto;margin-top: 3px;margin-bottom: 0;font-family: 'Verdana','Geneva',sans-serif;font-size: 91.3%;margin-bottom: -15px;height: 15px;vertical-align: middle;"><a onclick="redirectToCampaign();" href="#" >Back to Campaign: {!campaign.Name}</a></div>
+        <br/><br/>
+         
+        <apex:outputPanel id="Outp1">
+        <apex:pageBlock title="Filter Section">
+            <apex:pageBlockSection collapsible="false" id="CollapseDefault">
+                 
+                 <apex:pageblockTable value="{!Filters}" var="f">
+                     
+                     <apex:column headerValue="Field">
+                             <apex:selectList size="1" value="{!f.selectedColumn}">
+                             <apex:selectOptions value="{!f.ColumnNames}"/>
+                          </apex:selectList>
+                      </apex:column>     
+                      <apex:column headerValue="Operator">
+                          <apex:selectList size="1" value="{!f.selectedFilter}">
+                             <apex:selectOptions value="{!f.ColumnFilter}"/>
+                          </apex:selectList>
+                     </apex:column> 
+                     <apex:column headerValue="Value">
+                     <apex:inputtext value="{!f.FilterValues}" /><apex:outputLabel >AND</apex:outputLabel>
+                     </apex:column> 
+                     
+                 </apex:pageblockTable>
+            </apex:pageBlockSection>
+             
+            &nbsp;&nbsp;&nbsp;<apex:commandButton title="Go!"  value="Apply Filters"  action="{!applyFilter}" status="loadStatus"  rerender="pageblck,showvalue,outid" oncomplete="UncheckAll()" />
+            <apex:commandButton title="Go!"  value="Clear Filters"  action="{!clear}" status="loadStatus"   rerender="Outp1,pageblck,showvalue,outid" oncomplete="UncheckAll()" />             
+            
+        </apex:pageBlock>        
+        </apex:outputpanel>              
+     <br/>
+    <apex:inputCheckbox value="{!selectallrecods}" onclick="SelectGridCheckBoxes(this);" style="margin-left:12px;"/>&nbsp;&nbsp;<b>Include All Records</b>
+    &nbsp;&nbsp;<b>Select Date</b>&nbsp;  
+    <apex:inputField value="{!cmp.bizible2__Bizible_Touchpoint_Date__c}"  id="d1" />
+    &nbsp;&nbsp;<apex:commandButton oncomplete="UncheckAll();" status="loadStatus"  action="{!updateRecords}" rerender="pageblck,showvalue,outid" value="Update Selected Records"   />
+    <br /><br /> 
+
+<apex:pageBlock id="pageblck"  >
+<div style="overflow: scroll; height: 300px;">  
+<apex:pageBlockTable value="{!WrapperLst1}"  var="ltd" id="pageblck">
+<apex:column headerValue="Member">
+<apex:facet name="header"><apex:inputCheckbox value="{!selectCurrentrecords}" onclick="selectAllCheckboxes(this,'inputId')" id="SelectAll"  /></apex:facet>
+<apex:inputCheckbox id="inputId"  onclick="calculatechekc(this.id);" value="{!ltd.SelectVal}"/>
+ 
+<apex:actionSupport />
+</apex:column>
+<apex:column headerValue="Name">
+<apex:facet name="header"></apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.Name}"/>
+</apex:column>
+
+<apex:column headerValue="Title">
+<apex:facet name="header"></apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.Lead.Title}"/>
+</apex:column>
+
+<apex:column >
+<apex:facet name="header">Company</apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.Lead.Company}"/>
+</apex:column>
+
+<apex:column headerValue="Email">
+<apex:facet name="header">Email</apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.Lead.Email}"/>
+</apex:column>
+<apex:column headerValue="Type">
+<apex:facet name="header">Type</apex:facet>
+<apex:outputtext >{!if(Ltd.ObjCampMem.contactid!=null,'Contact','Lead')} </apex:outputtext>
+</apex:column>
+
+<apex:column headerValue="Status" title="Status">
+<apex:facet name="header">Status</apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.Status}"/>
+</apex:column>
+
+<apex:column headerValue="Status" title="Status">
+<apex:facet name="header">Bizible Touchpoint Date</apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.bizible2__Bizible_Touchpoint_Date__c}"/>
+</apex:column>
+
+<apex:column headerValue="Status" title="Status">
+<apex:facet name="header">Last Modified Date</apex:facet>
+<apex:outputField value="{!ltd.ObjCampMem.LastModifiedDate}"/>
+</apex:column>
+
+</apex:pageBlockTable>
+
+</div>
+
+ <center><span style="margin-top:10px;">
+ <br/>
+ <apex:commandlink value="<<Previous" action="{!previous}" style="text-decoration:none;font-weight: bold;" status="loadStatus"  rendered="{!Prev}" oncomplete="applyfilter();"  rerender="pageblck,showvalue,outid"      />
+ <apex:outputtext value="<<Previous"  style="text-decoration:none"  rendered="{!!Prev}"     />
+ &nbsp;&nbsp;
+ <apex:commandLink value="Next>>"  action="{!Next}" style="text-decoration:none;font-weight: bold;" status="loadStatus"  rendered="{!Next}" oncomplete="applyfilter();" rerender="pageblck,showvalue,outid" />
+ <apex:outputtext value="Next>>"  style="text-decoration:none"  rendered="{!!Next}" /></span></center> 
+</apex:pageBlock>
+<apex:outputPanel id="outid" ><b>{!frontsize}-{!backsize} of &nbsp;<apex:outputText value="{0, number, ###,##0}">
+     <apex:param value="{!Listsize}"/>
+ </apex:outputText></b>
+<span style="float:right;" ><b>&nbsp;&nbsp;&nbsp;&nbsp;Page {!PageNumber} of &nbsp;{!totalPageNumber}</b></span>
+</apex:outputPanel>
+<b><center>
+<apex:outputPanel id="showvalue">
+<apex:outputText value="{0, number, #####0}">
+     <apex:param value="{!counter}"/>
+ </apex:outputText>
+ 
+</apex:outputPanel>&nbsp;&nbsp;&nbsp;&nbsp;Selected</center></b>      
+   
+<apex:actionFunction id="SelectallRecords" name="SelectallRecords" action="{!SelectAllrecords}" status="loadStatus" rerender="pageblck,showvalue"/>    
+<apex:actionFunction id="SelectcurrentRecords" name="SelectcurrentRecords" action="{!SelectCurrentrecords}" status="loadStatus" rerender="pageblck,showvalue"/>    
+<apex:actionFunction id="sortName" name="sortName" status="loadStatus"  action="{!doSort}" rerender="mytable"/>    
+<apex:actionFunction id="updateRecordsaction" name="updateRecordsaction" oncomplete="UncheckAll();" status="loadStatus"  action="{!updateRecords}" rerender="pageblck,showvalue,outid"/>  
+<apex:actionFunction id="callCampaign" name="callCampaign"  action="{!callCampaign}" />  
+
+</apex:form>
+<c:ProgressStatus />
+</apex:page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>PermissionSetAssignment</baseObject>
+    <category>admin</category>
+    <deployed>true</deployed>
+    <description>This report type will allow the creation of user report based on user and permission-set licenses.</description>
+    <label>Permission Sets and Assignments</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Assignee</field>
+            <table>PermissionSetAssignment</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PermissionSet</field>
+            <table>PermissionSetAssignment</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>PermissionSetAssignment</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PermissionSetGroup</field>
+            <table>PermissionSetAssignment</table>
+        </columns>
+        <masterLabel>Permission Sets and Assignments</masterLabel>
+    </sections>
+</ReportType>

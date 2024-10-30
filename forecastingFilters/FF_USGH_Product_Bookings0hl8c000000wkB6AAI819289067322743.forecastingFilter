@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterLogic>1 AND 2 AND 3</filterLogic>
+    <forecastingType>USGH_Product_Bookings</forecastingType>
+    <forecastingTypeSource>FTS_USGH_Product_Bookings7sy8c000000wlK8AAI337956428075098</forecastingTypeSource>
+    <isProtected>false</isProtected>
+    <masterLabel>FF_USGH_Product_Bookings0hl8c000000wkB6AAI819289067322743</masterLabel>
+</ForecastingFilter>

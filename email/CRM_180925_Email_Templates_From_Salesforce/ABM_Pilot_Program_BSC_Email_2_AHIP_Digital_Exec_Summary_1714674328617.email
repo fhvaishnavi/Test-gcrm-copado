@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear&nbsp;{{{Recipient.FirstName}}},<br />
+&nbsp;</p>
+
+<p>The healthcare landscape continues to evolve rapidly, driven by competitive pressures, economic headwinds and shifting consumer demands to provide&nbsp;easier access&nbsp;to&nbsp;better care. So how can health plans maximize investments to meet these challenges?</p>
+
+<p>Our article,&nbsp;<a aria-label="Link A data-driven approach to engaging members and boosting equity" href="https://business.teladochealth.com/resources/article/a-data-driven-approach-to-engaging-members-and-boosting-equity/" target="_blank" title="https://business.teladochealth.com/resources/article/a-data-driven-approach-to-engaging-members-and-boosting-equity/">A data-driven approach to engaging members and boosting equity</a>, captured&nbsp;from our session at the 2023 AHIP Digital, explains how investments in data and technology paired with an omnichannel engagement strategy can help healthcare organizations interact with hard-to-reach populations. I encourage you to download the article to learn how:</p>
+
+<ul>
+	<li>Reliable data that provides a holistic view of each member helps personalize communications to encourage members to use services that improve their health</li>
+	<li>Omnichannel outreach and continuous learning through pilot programs are a proven way to keep program utilization numbers up</li>
+	<li>Culturally competent communications drives far superior results to one-size-fits-all engagement strategies</li>
+</ul>
+
+<p>Moreover,&nbsp;<a aria-label="Link this success story" href="https://teladochealth.highspot.com/items/65a02f4a22d057180c3ef6eb?lfrm=shp.1#1" target="_blank" title="https://teladochealth.highspot.com/items/65a02f4a22d057180c3ef6eb?lfrm=shp.1#1">this success story</a>&nbsp;from our partnership with Wellpoint, offers a more comprehensive insight into the content discussed in the article. Discover further details about their approach to engaging Medicaid members at high risk who are living with diabetes.</p>
+
+<p><br />
+Thank you,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

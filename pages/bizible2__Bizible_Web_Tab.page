@@ -1,0 +1,6 @@
+<apex:page sidebar="false">
+    <apex:outputPanel layout="block" style="font-size:20px; margin:20px">
+        <div>We've Moved</div>
+        <div>Visit us directly at <a href='https://apps.bizible.com' target='_blank'>apps.bizible.com</a></div>
+    </apex:outputPanel>
+</apex:page>

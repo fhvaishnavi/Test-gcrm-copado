@@ -1,0 +1,7 @@
+Salesperson: {!RFP__c.CreatedBy}
+Response Type: {!RFP__c.Response_Type__c}
+Product(s)/Service(s): {!RFP__c.Services__c}
+Request Date: {!RFP__c.Request_Date__c}
+Release Date: {!RFP__c.Release_Date__c}
+Due Date: {!RFP__c.Due_Date__c}
+Include Link: {!RFP__c.Link}

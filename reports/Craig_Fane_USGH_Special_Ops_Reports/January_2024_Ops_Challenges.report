@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Account_ID_18__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Account.Account_ID_18__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0018c00002qHYMrAAO,0018c00002qHYMvAAO,0018c00002qHYMyAAO,0018c00002qHYN2AAO,0018c00002qHYNdAAO,0018c00002qHYNoAAO,0018c00002qHYNuAAO,0018c00002qHYNvAAO,0018c00002qHYO0AAO,0018c00002qHYO5AAO,0018c00002qHYO8AAO,0018c00002qHYOEAA4,0018c00002qHYOFAA4,0018c00002qHYOJAA4,0018c00002qHYOKAA4,0018c00002qHYOLAA4,0018c00002qHYOQAA4,0018c00002rYPPuAAO,0018c00002sH0g0AAC,0018c00002sH0gDAAS,0018c00002sH0gHAAS,0018c00002sH0gJAAS,0018c00002sH0vkAAC,0018c00002sH2xdAAC,0018c00002sH5qDAAS,0018c00002sH5zFAAS,0018c00002sH6EDAA0,0018c00002sH7jDAAS,0018c00002sH7jhAAC,0018c00002sH7jiAAC,0018c00002sH7jsAAC,0018c00002sH7o4AAC,0018c00002sH7rDAAS,0018c00002sH7uwAAC,0018c00002sH7v4AAC,0018c00002sH7wWAAS,0018c00002sH7x3AAC,0018c00002sH7xZAAS,0018c00002sH7y7AAC,0018c00002sH7yEAAS,0018c00002sH7z9AAC,0018c00002sH7zhAAC,0018c00002sH803AAC,0018c00002sH804AAC,0018c00002sH81vAAC,0018c00002sH82BAAS,0018c00002sH88fAAC,0018c00002sH8QeAAK,0018c00002sH8XHAA0,0018c00002sH8XgAAK,0018c00002sH8ZCAA0,0018c00002sH8ljAAC,0018c00002sH91jAAC,0018c00002sH9FzAAK,0018c00002sH9HiAAK,0018c00002sH9KQAA0,0018c00002sH9L3AAK,0018c00002sH9LcAAK,0018c00002sH9N8AAK,0018c00002sH9bAAAS,0018c00002sH9eyAAC,0018c00002sH9jyAAC,0018c00002sH9pvAAC,0018c00002sH9xuAAC,0018c00002sHA1uAAG,0018c00002sHA4KAAW,0018c00002sHA9EAAW,0018c00002sHAOfAAO,0018c00002sHASVAA4,0018c00002sHB4ZAAW</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Account_ID_18__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0018c00002sHB4tAAG,0018c00002sHBApAAO,0018c00002sHBF1AAO,0018c00002sHBO7AAO,0018c00002sHCEDAA4,0018c00002sHCEdAAO,0018c00002sHCGAAA4,0018c00002sHCLKAA4,0018c00002sHCMmAAO,0018c00002sHCO1AAO,0018c00002sHCVPAA4,0018c00002sHCXCAA4,0018c00002sHCXjAAO,0018c00002sHCYmAAO,0018c00002sHCd5AAG,0018c00002sHCg3AAG,0018c00002sHCkOAAW,0018c00002sHD6BAAW,0018c00002sHDBAAA4,0018c00002wFD55AAG,0018c00002sHD2OAAW,0018c00002sHDuPAAW,0018c00002sHDAjAAO,0018c00002sHD73AAG,0018c00002sH13eAAC</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.L2O_Account_Health_Risk_Rating__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>January 2024 Ops Challenges</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>USERS.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,30 @@
+<apex:page standardController="Lead" extensions="bizible2.BizibleLeadRelatedList" showHeader="false">
+  <apex:form >
+  <apex:pageBlock rendered="{!if(Bizibles.size>0,true,false)}">
+  <apex:pageblockTable value="{!Bizibles}" var="ta" >
+
+        <!--
+        <apex:column styleClass="color: #015BA7;text-decoration: none;font-weight: normal;" headerValue="Action">
+        <apex:outputLink styleClass="color: #015BA7;text-decoration: none;font-weight: normal;" value="/{!ta.Id}" target="_blank">View |</apex:outputLink>
+
+        </apex:column>
+         !-->
+        <apex:repeat value="{!$ObjectType.bizible2__Bizible_Touchpoint__c.FieldSets.bizible2__Lead_Related_List}" var="f">
+              <apex:column rendered="{! 
+                 f != 'bizible2__SF_Campaign__c'
+              && f != 'Name' }" value="{! ta[f]}"/>
+          
+              <apex:column rendered="{! f == 'Name'}">
+                <apex:facet name="header">Bizible Touchpoint</apex:facet>
+                <apex:outputLink target="_blank" value="/{! ta.Id}">{!ta.Name}</apex:outputLink>
+              </apex:column>
+              <apex:column rendered="{! f == 'bizible2__SF_Campaign__c'}">
+                <apex:facet name="header">Campaign</apex:facet>
+                <apex:outputLink target="_blank" value="/{! ta[f]}">{!ta.bizible2__SF_Campaign__r.Name}</apex:outputLink>
+              </apex:column>
+              
+        </apex:repeat>
+</apex:pageblockTable>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear&nbsp;{{{Recipient.FirstName}}},<br />
+&nbsp;</p>
+
+<p>The mounting popularity of GLP-1 therapies is changing how people—and the healthcare system—address type 2 diabetes and obesity care. During a recent webinar, Dr. Tejaswi Kompala Clinical Strategy Director for Cardiometabolic Health, Teladoc Health and Dr. Robert Gabbay, Chief Scientific and Medical Officer, American Diabetes Association explored the opportunities and risks of these therapies and examine the role of these medications in the long-term management of two of the costliest conditions organizations face.</p>
+
+<p aria-hidden="true"><br />
+<a href="https://lp.teladochealth.com/HWBR-202311-EMP-CC-DIABETES_Registration-LP.html">Watch</a>&nbsp;the webinar recording or&nbsp;read&nbsp;this executive summary to learn what was discussed. And as always, I welcome you to get in touch to see how we can meet your strategic goals for virtual care.&nbsp;</p>
+
+<p aria-hidden="true">&nbsp;</p>
+
+<p>Thank you,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

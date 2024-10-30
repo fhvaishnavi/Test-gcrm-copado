@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear {{{Recipient.FirstName}}},<br />
+<br />
+I hope you’ll join us on Thursday, August 22 at 12 PM Eastern for the second edition of our new webinar series, <a href="https://lp.teladochealth.com/client-connections-august-registration.html?&amp;utm_source=highspot&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202408-EMP-BASREP-CLIENT-CONNECT-AUGUST&amp;utm_campaign_id=/">Client Connections</a>. This series is a great way to discover how we’re enhancing our products to better meet your members’ needs.&nbsp;<br />
+<br />
+Chief Client Officer, Kristen Moody, will walk through the latest enhancements from Teladoc Health. Plus, gain insights from a one-on-one discussion with fellow client, Carolyn Gordon, Director of Benefits at FUJIFILM, as she shares invaluable peer learnings.<br />
+<br />
+You’ll hear about:&nbsp;<br />
+•&nbsp;&nbsp; &nbsp;Highlights and key findings from Forum 2024<br />
+•&nbsp;&nbsp; &nbsp;New mental health capabilities that will expand our impact for members of all ages<br />
+•&nbsp;&nbsp; &nbsp;A new, validated model to quantify the holistic value of your chronic care solution<br />
+•&nbsp;&nbsp; &nbsp;Best practices to support those living with chronic conditions<br />
+<br />
+We hope to see you there! As always, thank you for being a great partner as we continue to learn and improve our solutions in the name of better health.<br />
+<br />
+Sincerely,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+&nbsp;</body>
+</html>

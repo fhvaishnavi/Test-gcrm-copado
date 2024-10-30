@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+I’d like to personally invite you to a networking breakfast hosted by Teladoc Health on virtual-first health plans. Join us in person to make meaningful connections with employee benefits colleagues and brush up on this innovative plan design—the facts, the value and the early adopters.<br />
+<br />
+Date: Tuesday, April 9<br />
+Time: 9:00 - 11:30am&nbsp;<br />
+Location: STIRR (Addison) - 5100 Belt Line Rd, Dallas, TX, 75254<br />
+Session Topic: The New Era or Virtual-first Health Plans and Virtual Care Innovation&nbsp;<br />
+<br />
+We’ve entered a new era of benefit design with more than 20 virtual-first health plans on the market revolutionizing the user experience, improving health outcomes, and controlling costs. Find out how we got here and how it’s working, along with other innovations in virtual care, in a collaborative discussion led by Teladoc Health.&nbsp;<br />
+<br />
+<a href="https://lp.teladochealth.com/dallas-roundtable-registration.html">Save your seat at the table</a>&nbsp;to enrich the conversation.&nbsp;<br />
+<br />
+Hope you can join us! &nbsp;<br />
+<br />
+{{{Sender.Name}}}<br />
+{{{Sender.Email}}}</body>
+</html>

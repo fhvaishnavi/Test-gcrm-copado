@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Game-changing news: Teladoc Health is expanding its comprehensive mental healthcare solution for children, teens, and their families through a strategic partnership with Brightline. This innovative collaboration will provide early intervention and treatment while promoting the development of healthy lifestyle habits at an early age including:&nbsp;<br />
+<br />
+•&nbsp;&nbsp; &nbsp;Alleviating barriers to pediatric and adolescent mental health today, like specialized provider shortages, lack of parental support, and the rising total cost of care for children and households if disorders go untreated.&nbsp;<br />
+•&nbsp;&nbsp; &nbsp;Closing the gap between need for services and access to services for children, teens, and their families.&nbsp;<br />
+•&nbsp;&nbsp; &nbsp;Providing early intervention and treatment, while promoting the development of health lifestyle habits at an early age.&nbsp;<br />
+<br />
+Read more in the <a href="https://www.teladochealth.com/newsroom/press/teladoc-health-introduces-pediatric-adolescent-and-family-mental-healthcare-through-partnership-with-brightline">press release</a>&nbsp;and reach out if you’d like to learn more about what we’re doing.&nbsp;<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

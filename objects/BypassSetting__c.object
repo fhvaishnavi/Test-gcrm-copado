@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This is used to bypass validation rules triggers and record trigger flows</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Bypass_Flow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field used to bypass all the record trigger flows</description>
+        <inlineHelpText>This field used to bypass all the record trigger flows</inlineHelpText>
+        <label>Bypass Flow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bypass_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field used to bypass all the triggers</description>
+        <inlineHelpText>This field used to bypass all the triggers</inlineHelpText>
+        <label>Bypass Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bypass_Validation_Rule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field used to bypass all the validation Rules</description>
+        <inlineHelpText>This field used to bypass all the validation Rules</inlineHelpText>
+        <label>Bypass Validation Rule</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Bypass Setting</label>
+    <listViews>
+        <fullName>Default</fullName>
+        <columns>SETUP_OWNER_NAME</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>NAME</columns>
+        <columns>Bypass_Flow__c</columns>
+        <columns>Bypass_Trigger__c</columns>
+        <columns>Bypass_Validation_Rule__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Default</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

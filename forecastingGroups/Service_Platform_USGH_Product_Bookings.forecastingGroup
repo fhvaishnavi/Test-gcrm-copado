@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Service_Platform_USGH_Product_Bookings</developerName>
+    <forecastingGroupItems>
+        <displayPosition>0</displayPosition>
+        <sourceApiValue>LIV</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>1</displayPosition>
+        <sourceApiValue>TDH</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>2</displayPosition>
+    </forecastingGroupItems>
+    <groupField>L2O_Service_Platform__c</groupField>
+    <masterLabel>Service Platform USGH Product Bookings</masterLabel>
+    <sourceObject>Product2</sourceObject>
+</ForecastingGroup>

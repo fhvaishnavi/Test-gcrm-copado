@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Subchannel_Segment_USGH_Bookings</developerName>
+    <forecastingGroupItems>
+        <displayPosition>7</displayPosition>
+        <sourceApiValue>Government Federal Agencies</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>8</displayPosition>
+        <sourceApiValue>Labor</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>13</displayPosition>
+        <sourceApiValue>United</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>14</displayPosition>
+        <sourceApiValue>HSG</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>10</displayPosition>
+        <sourceApiValue>Net New</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>16</displayPosition>
+        <sourceApiValue>West Client Sales</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>15</displayPosition>
+        <sourceApiValue>Strategic Partnerships</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>9</displayPosition>
+        <sourceApiValue>National</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>12</displayPosition>
+        <sourceApiValue>UHC Employees</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>11</displayPosition>
+        <sourceApiValue>TPA/Reseller</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>1</displayPosition>
+        <sourceApiValue>ASO</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>6</displayPosition>
+        <sourceApiValue>Federal</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>0</displayPosition>
+        <sourceApiValue>Blues</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>2</displayPosition>
+        <sourceApiValue>Aetna</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>5</displayPosition>
+        <sourceApiValue>Employer</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>3</displayPosition>
+        <sourceApiValue>Downmarket</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>4</displayPosition>
+        <sourceApiValue>East Client Sales</sourceApiValue>
+    </forecastingGroupItems>
+    <groupField>L2O_Sub_Channel_Segment__c</groupField>
+    <masterLabel>Subchannel Segment USGH Bookings</masterLabel>
+    <sourceObject>Opportunity</sourceObject>
+</ForecastingGroup>

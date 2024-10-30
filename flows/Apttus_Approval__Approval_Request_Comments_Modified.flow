@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>Migrated from the: Approval Request Comments Modified workflow rule
+Workflow rule description: Workflow rule that fires when an approval request has had comments added without actually approving or rejecting the request.&quot;</description>
+    <environments>Default</environments>
+    <label>Approval Request Comments Modified</label>
+    <processMetadataValues>
+        <name>AssociatedRecord</name>
+        <value/>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+</Flow>

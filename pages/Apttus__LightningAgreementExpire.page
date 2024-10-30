@@ -1,0 +1,42 @@
+<!-- 
+    Apttus Contract Management
+    LightningAgreementExpire
+     
+    @2017-2021 Apttus Inc. All rights reserved.
+
+ -->
+<apex:page standardController="Apttus__APTS_Agreement__c" 
+           extensions="Apttus.AgreementExpireController" docType="html-5.0">
+	
+	
+	
+    <apex:includeLightning />
+    <apex:outputField value="{!Apttus__APTS_Agreement__c.Name}"  rendered="false"/>
+        <style>
+          html body.sfdcBody {
+                padding:0 0 0 0;
+                background-image: url(/_slds/images/themes/lightning_blue/lightning_blue_background.png),linear-gradient(to top, rgba(160, 180, 206, 0.0) 0, rgba(160, 180, 206, 1))  !important;
+                background: no-repeat;
+                overflow-x: unset !important;
+                overflow-y: unset !important;
+	        background-position: 0 0px !important;
+          }
+        </style>
+       <div id="expireAgreementContainer"/>
+        <script>    
+            $Lightning.use("{!ComponentNamespace}:AgreementEditApp", function() {
+                $Lightning.createComponent("{!ComponentNamespace}:LightningAggregate",{                 
+                    recordName : '{!JSENCODE(APTS_Agreement__c.Name)}',
+                    sObjectName : '{!$ObjectType.APTS_Agreement__c.Name}',
+                    action : 'Expire', 
+                    recordId : '{!APTS_Agreement__c.Id}',
+                    typeofImage : '/images/headericons/Expire.png',
+                    editMode : false
+                },
+                "expireAgreementContainer",
+                function(cmp) {
+                    console.log('Component created');
+                });
+            });
+            </script>
+</apex:page>

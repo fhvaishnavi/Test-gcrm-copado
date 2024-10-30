@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>CLOSE_DATE:UNIQUE-CREATED_DATE:UNIQUE</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Age</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>WON:SUM/OPPORTUNITY_ID:UNIQUE</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Win Rate</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_61646975</developerName>
+        <masterLabel>All Time Pipeline</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>FISCAL_YEAR</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>2,023</to>
+            </sourceValues>
+            <value>Current Year</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>2,023</from>
+            </sourceValues>
+            <value>Future Pipeline</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_86832076</developerName>
+        <masterLabel>Product Grouping</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>PRODUCT_NAME</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>A1c Test Kits</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>A1c Test Kits - Results</sourceValue>
+            </sourceValues>
+            <value>A1C Test Kits</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Advanced Weight Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Weight Management (Select Populations)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Weight Management with Prediabetes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Weight Management with Prediabetes Plus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Prediabetes</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Prediabetes Plus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Prediabetes with MH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Weight Management (Select Populations) with MH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Advanced Weight Management Plus</sourceValue>
+            </sourceValues>
+            <value>AWM</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Chronic Care Complete</sourceValue>
+            </sourceValues>
+            <value>CCC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Chronic Care Management Plus + Mental Health Complete</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Chronic Condition Management Plus</sourceValue>
+            </sourceValues>
+            <value>CCM+</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Comprehensive Weight Care</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Comprehensive Weight Care (Select Populations)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Comprehensive Weight Care (Select Populations) with MH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Comprehensive Weight Care with Prediabetes Plus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Comprehensive Weight Care Complete</sourceValue>
+            </sourceValues>
+            <value>CWC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Diabetes Care</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Diabetes Care Complete</sourceValue>
+            </sourceValues>
+            <value>Diabetes Care &amp; Care Complete</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Diabetes Management Plus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Diabetes Management with MH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Diabetes w/ CKD Aware Variant</sourceValue>
+            </sourceValues>
+            <value>DM Plus</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Diabetes Flex</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Diabetes Management</sourceValue>
+            </sourceValues>
+            <value>DM Standalone</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prediabetes Care Complete</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prediabetes Management Plus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Weight Management Care</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Weight Management with MH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prediabetes Management with MH</sourceValue>
+            </sourceValues>
+            <value>DPP Plus</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Hypertension Care Complete</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Hypertension Management Plus</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Hypertension Management w/ CKD Aware Variant</sourceValue>
+            </sourceValues>
+            <value>HTN Plus</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Hypertension Care</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Hypertension Management</sourceValue>
+            </sourceValues>
+            <value>HTN Standalone</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prediabetes Care</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prediabetes Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Weight Management</sourceValue>
+            </sourceValues>
+            <value>WM/DPP Standalone</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>OpportunityLineItem.Product_Bookings__c</column>
+        </chartSummaries>
+        <chartType>Donut</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>false</expandOthers>
+        <groupingColumn>BucketField_86832076</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>true</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>FISCAL_YEAR</field>
+    </columns>
+    <columns>
+        <field>Product2.L2O_Product_Portfolio__c</field>
+    </columns>
+    <columns>
+        <field>BucketField_61646975</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.L2O_Sub_Channel_Segment__c</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.L2O_Fee_Type__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.L2O_Bookings_Total__c</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.L2O_Bundle_Type__c</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_ID</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__AmendedContract__c</field>
+    </columns>
+    <columns>
+        <field>FISCAL_QUARTER</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Unique</aggregateTypes>
+        <field>Opportunity.Opportunity_ID_18__c</field>
+    </columns>
+    <columns>
+        <field>WON</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.L2O_Subtype__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.L2O_Contracting_Account__c</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.L2O_Legacy_Id__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Product_Bookings__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>CDF1</field>
+    </columns>
+    <columns>
+        <field>Account.L2O_Legacy_Id__c</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>OpportunityLineItem.L2O_Net_ARR_With_PG_Bookings_Total_USGH__c+OpportunityLineItem.L2O_Upfront_Fee_Total_BookingsTotal_USGH__c+OpportunityLineItem.L2O_One_time_Total_Bookings_Total_USGH__c</calculatedFormula>
+        <dataType>Double</dataType>
+        <developerName>CDF1</developerName>
+        <label>Product Level Bookings</label>
+        <scale>0</scale>
+    </customDetailFormulas>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND ((9 OR 10) AND NOT (11 OR 12)) AND 13 AND 14</booleanFilter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Contracting,Discovery,Proposal,Prospect,Review/Negotiation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Existing Business,New Business</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.L2O_Sub_Channel_Segment__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>,ASO,B2B,B2C,B2H,Canada,DTE - Client Management,Hospital &amp; Health System (HHS)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPPORTUNITY_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>For Reporting Purposes Only,dummy,testingzzz</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>for reporting purposes,testingzzz</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.L2O_Subtype__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Hunting License</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.L2O_Client_Line_of_Business__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Commercial ASO - Opt Out</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.L2O_Business_Region__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Product2.L2O_Product_Portfolio__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>chronic</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FAMILY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>chronic,diabetes,hyper,weight,heart</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Product2.L2O_Product_Portfolio__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>mental</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FAMILY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>mental,behavorial</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CLOSE_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.L2O_Sub_Type_Detail__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Delayed Launch,Did Not Launch,Price Decrease,Reporting Purposes Only</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_86832076</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FAMILY</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PRODUCT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Copy of CCM pipeline - All Time, CFY AOP</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityProduct</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

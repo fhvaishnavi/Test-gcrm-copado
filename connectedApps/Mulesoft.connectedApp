@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>Vishakha.s.sikarwar@pwc.com</contactEmail>
+    <description>Oauth Credentials for Mulesoft</description>
+    <label>Mulesoft</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/token</callbackUrl>
+        <certificate>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</certificate>
+        <consumerKey>3MVG9IIStAp1zxryLrg98Fo.nWMmAiqOWWgmjSLDhV_NbKvnpbYf7if23WyUjjce0ZgbdpoKvZ5QHMOgDoxCY</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+        <scopes>Pardot</scopes>
+        <scopes>Lightning</scopes>
+        <scopes>Content</scopes>
+        <scopes>CDPIngest</scopes>
+        <scopes>CDPProfile</scopes>
+        <scopes>CDPQuery</scopes>
+        <scopes>Chatbot</scopes>
+        <scopes>CDPSegment</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>Integration</profileName>
+</ConnectedApp>

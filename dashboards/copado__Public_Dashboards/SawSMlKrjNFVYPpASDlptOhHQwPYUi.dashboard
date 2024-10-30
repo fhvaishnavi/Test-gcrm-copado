@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>RichText</componentType>
+                <dashboardComponentContents>
+                    <richTextContent>[{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;32px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Dashboard\/01Z8c000001V0HWEA0\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;Downmarket 2024 View\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;32px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Dashboard\/01Z8c000001V0nmEAC\/view\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;TPA Team Dashboard\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\&amp;quot;}]</richTextContent>
+                </dashboardComponentContents>
+                <groupingSortProperties/>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>RichText</componentType>
+                <dashboardComponentContents>
+                    <richTextContent>[{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;28px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Dashboard\/01Z8c000001V0HUEA0\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;UMR \/ UHC Bookings and Pipeline Dashboard\&amp;quot;},{\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;28px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Dashboard\/01Z8c000001QsimEAC\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;Alice Addis Team Activity\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;28px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Report\/00O8c00000DFF7AEAX\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;UHC Employee Pipeline\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;28px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/sObject\/00OWj000000oJx7MAE\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;Pat Sir Pipeline\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;28px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Report\/00O8c00000DF4OHEA1\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;Jamie Smolin Pipeline\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;color\&amp;quot;:\&amp;quot;var(--lwc-brandTextLinkActive,rgb(1, 68, 134))\&amp;quot;,\&amp;quot;size\&amp;quot;:\&amp;quot;28px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/teladochealthglobalcrm.lightning.force.com\/lightning\/r\/Report\/00O8c00000DF4OWEA1\/view?queryScope=userFolders\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;Alice Addis Open Pipeline\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\\n\&amp;quot;}]</richTextContent>
+                </dashboardComponentContents>
+                <groupingSortProperties/>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>Provides a Dashboard for Pat to Access the Downmarket and United Dashboards</description>
+    <isGridLayout>true</isGridLayout>
+    <owner>ryan.plews@teladochealth.com.gcrm</owner>
+    <runningUser>aga.ozdowski@teladochealth.com.gcrm</runningUser>
+    <textColor>#000000</textColor>
+    <title>Pat Sir Dashboard</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+As virtual care becomes an indispensable part of employee benefits, it's crucial to ensure your program is delivering real value. That’s where we come in.<br />
+<br />
+Recently, Jessy Rosales, Head of North America Total Rewards at SAP, and Dr. Tejaswi Kompala, Senior Director of Clinical Strategy for Cardiometabolic Health at Teladoc Health, sat down with Nabomita Dutta, SVP of Commercial Strategy at Teladoc Health, to discuss the increasing pressure on organizations to prioritize the long-term value of healthcare investments. They shared their insights on evaluating virtual care programs for ROI and why clinical quality is emerging as the essential differentiator for value.<br />
+<br />
+I’d like to personally invite you to view the recording for our &nbsp;webinar, <a href="https://gateway.on24.com/wcc/eh/3511880/lp/4713242/stay-ahead-of-the-curve-evaluating-virtual-care-for-long-term-value">Stay Ahead of the Curve: Evaluating Virtual Care for Long-Term Value</a>,&nbsp;now available on-demand.&nbsp;<br />
+<br />
+I don't want you to miss this chance to stay ahead in evaluating the effectiveness of your virtual care offerings. After you watch, I would love to set up time to hear what you thought of the webinar and discuss how you're assessing the impact of your current offerings.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}</body>
+</html>

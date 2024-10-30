@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- ID of the clause configuration record --></help>
+        <label><!-- Clause Configuration --></label>
+        <name>Apttus__ClauseConfigurationId__c</name>
+        <relationshipLabel><!-- Alternate Clauses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- ID of the clause used to replace the the Standard Clause --></help>
+        <label><!-- Clause --></label>
+        <name>Apttus__ClauseId__c</name>
+        <relationshipLabel><!-- Alternate Clauses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Priority order of  the Alternate Clause --></help>
+        <label><!-- Clause Ranking --></label>
+        <name>Apttus__ClauseRanking__c</name>
+    </fields>
+</CustomObjectTranslation>

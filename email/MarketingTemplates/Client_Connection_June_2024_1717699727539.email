@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-family:Times New Roman,Times New Roman,Times,serif;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Here at Teladoc Health, we’re continually evolving and improving our solutions for you and the people you serve. In that spirit, we’ll be hosting a new webinar series, <a href="https://lp.teladochealth.com/client-connections-june-registration.html?&amp;utm_source=highspot&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202406-EMP-BASREP-CLIENT-CONNECT-JUNE-1&amp;utm_campaign_id=/">Client Connections</a>, to keep you up to date and informed about innovations and enhancements to our products and services.<br />
+<br />
+<a href="https://lp.teladochealth.com/client-connections-june-registration.html?&amp;utm_source=highspot&amp;utm_medium=email&amp;utm_content=&amp;utm_term=&amp;utm_campaign=HWBR-202406-EMP-BASREP-CLIENT-CONNECT-JUNE-1&amp;utm_campaign_id=/">Join us</a> as this series of informative webinars kicks off June 27 at 12 PM Eastern with Chief Client Officer, Kristen Moody and Chief Marketing, Engagement and Product Experience Officer, Stephany Verstraete. They’ll be covering:</span><br />
+&nbsp;
+<ul>
+	<li style="margin-bottom:11px; margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:107%">The latest member experience enhancements, including our new integrated app</span></span></li>
+	<li style="margin-bottom:11px; margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:107%">Targeted improvements to our processes</span></span></li>
+	<li style="margin-bottom:11px; margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:107%">Teladoc Health product innovations </span></span></li>
+	<li style="margin-bottom:11px; margin-left:8px"><span style="font-family:Times New Roman,Times New Roman,Times,serif;"><span style="line-height:107%">And much more </span></span></li>
+</ul>
+<span style="font-family:Times New Roman,Times New Roman,Times,serif;">We hope to see you there! As always, thank you for being a great partner as we continue to learn and improve our solutions in the name of better health.<br />
+<br />
+Sincerely,<br />
+{{{Sender.FirstName}}}<br />
+{{{Sender.Email}}}</span><br />
+&nbsp;</body>
+</html>
